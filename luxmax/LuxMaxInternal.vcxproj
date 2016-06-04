@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Hybrid|Win32">
+      <Configuration>Hybrid</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Hybrid|x64">
+      <Configuration>Hybrid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B4AA58F2-E1C5-4FB7-94E3-0C26E98DAA5B}</ProjectGuid>
+    <MaxSDK>C:\Program Files\Autodesk\3ds Max 2016 SDK\maxsdk</MaxSDK>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ProjectName>LuxMax_Internal</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Hybrid|Win32'">
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Hybrid|x64'">
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="C:\Program Files\Autodesk\3ds Max 2016 SDK\maxsdk\ProjectSettings\propertySheets\3dsmax.general.project.settings.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="PropertySheets">
+    <Import Project="C:\Program Files\Autodesk\3ds Max 2016 SDK\maxsdk\ProjectSettings\propertySheets\3dsmax.cpp.props" />
+  </ImportGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir>C:\Program Files\Autodesk\3ds Max 2016\plugins\</OutDir>
+    <TargetName>LuxMaxInternal</TargetName>
+    <TargetExt>.dlr</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>C:\Program Files\Autodesk\3ds Max 2016 SDK\maxsdk\lib\x64\Release;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\development\lux\windows_deps\x64\Release\lib;C:\boost_1_56_0\lib64-msvc-11.0\;C:\development\lux\windows_deps\include\Boost;C:\development\lux\windows\Build_CMake\LuxRays\lib\Release;C:\development\lux\luxrays\include\;C:\development\lux\luxrays\include\luxcore\;$(IncludePath);C:\development\lux\luxrays\include;C:\development\lux\windows_deps\include\OpenImageIO;C:\development\lux\windows_deps\include\OpenEXR;C:\development\lux\windows_deps\include;C:\development\lux\windows_deps\include\Python3</IncludePath>
+    <LibraryPath>C:\development\lux\windows\Build_CMake\LuxRays\lib\Release\;C:\boost_1_56_0\lib64-msvc-11.0;$(LibraryPath)</LibraryPath>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+    <IntDir>$(LocalDebuggerWorkingDirectory)\intermidiate\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>$(MaxSdkInc);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>LuxMaxInternalpch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(MaxSdkInc);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>IGame.lib;gfx.lib;bmm.lib;embree.lib;paramblk2.lib;fftw3.lib;freeglut_static.lib;FreeImage.lib;glew32.lib;Half.lib;Iex.lib;IlmImf.lib;IlmThread.lib;Imath.lib;jpeg.lib;libboost_bzip2-vc120-mt-1_56.lib;libboost_chrono-vc120-mt-1_56.lib;libboost_date_time-vc120-mt-1_56.lib;libboost_filesystem-vc120-mt-1_56.lib;libboost_iostreams-vc120-mt-1_56.lib;libboost_locale-vc120-mt-1_56.lib;libboost_program_options-vc120-mt-1_56.lib;libboost_python-vc120-mt-1_56.lib;libboost_python3-vc120-mt-1_56.lib;libboost_regex-vc120-mt-1_56.lib;libboost_serialization-vc120-mt-1_56.lib;libboost_system-vc120-mt-1_56.lib;libboost_thread-vc120-mt-1_56.lib;libboost_wserialization-vc120-mt-1_56.lib;libboost_zlib-vc120-mt-1_56.lib;libpng.lib;libtiff.lib;OpenImageIO.lib;openjpeg.lib;python34.lib;QtCore4.lib;QtGui4.lib;qtmain.lib;QtNetwork4.lib;zlib1.lib;smallluxgpu.lib;luxrays.lib;luxcore.lib;maxscrpt.lib;comctl32.lib;core.lib;geom.lib;maxutil.lib;mesh.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\development\lux\windows\Build_CMake\LuxRender\RELEASE\;C:\Program Files (x86)\AMD APP SDK\3.0-0-Beta\lib\x86_64;C:\boost_1_56_0\lib64-msvc-11.0;C:\development\lux\windows\Build_CMake\LuxRays\lib\Release;C:\development\lux\windows_deps\x64\Release\lib;$(MaxSdkLib);$(MaxLib);C:\development\lux\windows_deps\x86\Release\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>.\LuxMaxInternal.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Hybrid|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>_SECURE_SCL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Hybrid|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_SECURE_SCL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>_ADESK_3DSMAX_WINDOWS_;WINVER=0x0502;_WIN32_WINNT=0x0502;_WIN32_WINDOWS=0x0502;_WIN32_IE=0x0800;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;ISOLATION_AWARE_ENABLED=1;MODULE_NAME=$(TargetFileName);_DEBUG;WIN32;_WINDLL;_UNICODE;UNICODE</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>_SECURE_SCL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>LUXRAYS_DISABLE_OPENCL;WIN32_LEAN_AND_MEAN;LUX_DLL;NOMINMAX;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;ISOLATION_AWARE_ENABLED=1;MODULE_NAME=$(TargetFileName);NDEBUG;SECURE_SCL=0;WIN32;WIN64;_WINDLL;_UNICODE;UNICODE</PreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions>/MD</UndefinePreprocessorDefinitions>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <AdditionalOptions />
+      <WarningLevel>Level4</WarningLevel>
+    </ClCompile>
+    <Link>
+      <OutputFile>c:\Program Files\Autodesk\3ds Max 2016\plugins\LuxMaxInternal.dlr</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="LuxMaxCamera.cpp" />
+    <ClCompile Include="LuxMaxInternal.cpp" />
+    <ClCompile Include="LuxMaxInterlanpch.cpp">
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <BasicRuntimeChecks Condition="'$(Configuration)'=='Debug'">EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck Condition="'$(Configuration)'=='Debug'">true</BufferSecurityCheck>
+      <EnableEnhancedInstructionSet Condition="'$(Platform)'=='Win32'">StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <UseFullPaths>true</UseFullPaths>
+      <BasicRuntimeChecks Condition="'$(Configuration)'=='Hybrid'">EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck Condition="'$(Configuration)'=='Hybrid'">true</BufferSecurityCheck>
+      <Optimization Condition="'$(Configuration)'=='Release'">MaxSpeed</Optimization>
+      <InlineFunctionExpansion Condition="'$(Configuration)'=='Release'">AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions Condition="'$(Configuration)'=='Release'">true</IntrinsicFunctions>
+      <FavorSizeOrSpeed Condition="'$(Configuration)'=='Release'">Speed</FavorSizeOrSpeed>
+      <OmitFramePointers Condition="'$(Configuration)'=='Release'">false</OmitFramePointers>
+      <EnableFiberSafeOptimizations Condition="'$(Configuration)'=='Release'">true</EnableFiberSafeOptimizations>
+      <BasicRuntimeChecks Condition="'$(Configuration)'=='Release'">Default</BasicRuntimeChecks>
+      <BufferSecurityCheck Condition="'$(Configuration)'=='Release'">false</BufferSecurityCheck>
+    </ClCompile>
+    <ClCompile Include="LuxMaxInternaldlg.cpp" />
+    <ClCompile Include="LuxMaxLights.cpp" />
+    <ClCompile Include="LuxMaxMaterials.cpp" />
+    <ClCompile Include="LuxMaxMesh.cpp" />
+    <ClCompile Include="LuxMaxUtils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LuxMaxInternal.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LuxMaxInternal.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="luxlight.h" />
+    <ClInclude Include="LuxMaxCamera.h" />
+    <ClInclude Include="LuxMaxInternal.h" />
+    <ClInclude Include="LuxMaxLights.h" />
+    <ClInclude Include="LuxMaxMaterials.h" />
+    <ClInclude Include="LuxMaxMesh.h" />
+    <ClInclude Include="LuxMaxUtils.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="LuxMaxInternalpch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\lux\windows\Build_CMake\LuxRays\src\luxcore\luxcore.vcxproj">
+      <Project>{103023cd-d7e3-48f8-adf1-237cbc5062f3}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

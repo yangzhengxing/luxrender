@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="LuxMaxInterlanpch.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LuxMaxInternal.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LuxMaxLights.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LuxMaxMaterials.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LuxMaxUtils.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LuxMaxInternaldlg.cpp">
+      <Filter>source\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="LuxMaxCamera.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LuxMaxMesh.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="luxlight.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LuxMaxInternal.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LuxMaxInternalpch.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LuxMaxLights.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LuxMaxMaterials.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LuxMaxUtils.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>headers\dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="LuxMaxCamera.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LuxMaxMesh.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{cba03092-073e-43b7-a4f3-6262256b408b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{e1db2bf3-df64-4aaf-8be9-1276902ddc59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{cf571fd9-a831-4bfb-98d2-dbea77320deb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\dialogs">
+      <UniqueIdentifier>{0f0e6ed2-3e18-4e3d-8d70-5ddf94809489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\dialogs">
+      <UniqueIdentifier>{8d8a25f8-2899-4fda-8a9e-fcb047344b00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LuxMaxInternal.def">
+      <Filter>resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LuxMaxInternal.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

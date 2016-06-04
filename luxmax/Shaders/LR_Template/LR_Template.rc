@@ -1,0 +1,140 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PANEL DIALOGEX 0, 0, 217, 189
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CTEXT           "Diffuse texture",IDC_STATIC,149,85,54,11
+    CONTROL         "",IDC_EDIT,"CustEdit",WS_TABSTOP,24,52,35,10
+    CONTROL         "",IDC_SPIN,"SpinnerControl",0x0,60,52,7,10
+    LTEXT           "Spinner Cust Control:",IDC_STATIC,133,53,67,8
+    CONTROL         "Custom1",IDC_MTL1,"CustButton",WS_TABSTOP,23,35,119,13
+    CONTROL         "",IDC_MTLON1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,147,37,10,10
+    CONTROL         "",IDC_SAMP_COLOR,"ColorSwatch",WS_TABSTOP,24,66,35,12
+    CONTROL         "",IDC_SAMP_MAP,"CustButton",WS_TABSTOP,24,82,119,13
+    CTEXT           "LuxMax Internal Template Material That Include What We Need For Other Materials",IDC_STATIC,10,10,193,23
+    CTEXT           "Diffuse Color",IDC_STATIC,150,68,52,11
+    CTEXT           "Mat Control",IDC_STATIC,157,38,48,15
+    CONTROL         "",IDC_EDIT2,"CustEdit",WS_TABSTOP,24,131,35,10
+    CONTROL         "",IDC_SPIN2,"SpinnerControl",0x0,60,131,7,10
+    CTEXT           "Transparency",IDC_STATIC,151,132,52,11
+    CTEXT           "Specular",IDC_STATIC,154,117,46,11
+    CONTROL         "",IDC_EDIT4,"CustEdit",WS_TABSTOP,24,145,35,10
+    CONTROL         "",IDC_SPIN4,"SpinnerControl",0x0,60,145,7,10
+    CTEXT           "Shines",IDC_STATIC,151,147,52,11
+    CTEXT           "Ambient",IDC_STATIC,151,102,52,11
+    CONTROL         "",IDC_EDIT6,"CustEdit",WS_TABSTOP,24,159,35,10
+    CONTROL         "",IDC_SPIN6,"SpinnerControl",0x0,60,159,7,10
+    CTEXT           "Wire Size",IDC_STATIC,152,160,52,11
+    CONTROL         "",IDC_SAMP_COLOR2,"ColorSwatch",WS_TABSTOP,24,99,35,12
+    CONTROL         "",IDC_SAMP_COLOR3,"ColorSwatch",WS_TABSTOP,24,115,35,12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_PANEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 207
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 182
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_LIBDESCRIPTION      "LuxMax Integrated Shaders"
+    IDS_CATEGORY            "LRI Shaders"
+    IDS_CLASS_NAME          "LR_Template"
+    IDS_PARAMS              "Parameters"
+    IDS_SPIN                "Spin"
+    IDS_COLOR               "Color"
+    IDS_MTL1                "Material"
+    IDS_MTL1ON              "MaterialState"
+    IDS_MAP                 "TexturMap"
+    IDS_COLOR2              "Ambient Color"
+    IDS_COLOR3              "Specular Color"
+    IDS_SPIN2               "Opacity"
+    IDS_SPIN4               "Shine"
+    IDS_SPIN6               "Wire Size"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

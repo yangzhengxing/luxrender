@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\luxrender\lux\vr\luxvr.cpp">
+      <Filter>Source Files\VR</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\console\commandline.cpp">
+      <Filter>Source Files\Console</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{139AB3E9-94D9-430E-BF80-995733DA1835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Console">
+      <UniqueIdentifier>{6A5D7670-9505-4C5E-9198-C00106298C99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VR">
+      <UniqueIdentifier>{118A7596-FC26-4CCE-9D68-95EE27CA47F8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

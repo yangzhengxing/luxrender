@@ -1,0 +1,21 @@
+# CMake generation dependency list for this directory.
+D:/luxrender/luxrays/samples/luxcoreui/deps/glfw-3.1.1/CMakeLists.txt
+D:/luxrender/windows_deps/bin/CMake/share/cmake-2.8/Modules/FindOpenGL.cmake
+D:/luxrender/windows_deps/bin/CMake/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+D:/luxrender/windows_deps/bin/CMake/share/cmake-2.8/Modules/FindPackageMessage.cmake
+D:/luxrender/windows_deps/bin/CMake/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+D:/luxrender/windows_deps/bin/CMake/share/cmake-2.8/Modules/FindThreads.cmake
+D:/luxrender/windows_deps/bin/CMake/share/cmake-2.8/Modules/CheckIncludeFiles.cmake
+D:/luxrender/windows_deps/bin/CMake/share/cmake-2.8/Modules/CheckLibraryExists.cmake
+D:/luxrender/windows_deps/bin/CMake/share/cmake-2.8/Modules/CheckSymbolExists.cmake
+D:/luxrender/windows_deps/bin/CMake/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+D:/luxrender/windows_deps/bin/CMake/share/cmake-2.8/Modules/FindPackageMessage.cmake
+D:/luxrender/windows_deps/bin/CMake/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+D:/luxrender/windows_deps/bin/CMake/share/cmake-2.8/Modules/CMakePackageConfigHelpers.cmake
+D:/luxrender/windows_deps/bin/CMake/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+D:/luxrender/windows_deps/bin/CMake/share/cmake-2.8/Modules/WriteBasicConfigVersionFile.cmake
+D:/luxrender/windows_deps/bin/CMake/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+D:/luxrender/luxrays/samples/luxcoreui/deps/glfw-3.1.1/src/glfw3Config.cmake.in
+D:/luxrender/windows_deps/bin/CMake/share/cmake-2.8/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+D:/luxrender/luxrays/samples/luxcoreui/deps/glfw-3.1.1/src/glfw_config.h.in
+D:/luxrender/luxrays/samples/luxcoreui/deps/glfw-3.1.1/src/glfw3.pc.in

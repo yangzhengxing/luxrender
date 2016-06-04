@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\luxrender\lux\qtgui\aboutdialog.cpp">
+      <Filter>Source Files\Qt GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\qtgui\advancedinfowidget.cpp">
+      <Filter>Source Files\Qt GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\qtgui\batchprocessdialog.cpp">
+      <Filter>Source Files\Qt GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\qtgui\colorspacewidget.cpp">
+      <Filter>Source Files\Qt GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\qtgui\gammawidget.cpp">
+      <Filter>Source Files\Qt GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\qtgui\guiutil.cpp">
+      <Filter>Source Files\Qt GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\qtgui\histogramview.cpp">
+      <Filter>Source Files\Qt GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\qtgui\histogramwidget.cpp">
+      <Filter>Source Files\Qt GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\qtgui\lenseffectswidget.cpp">
+      <Filter>Source Files\Qt GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\qtgui\lightgroupwidget.cpp">
+      <Filter>Source Files\Qt GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\qtgui\luxapp.cpp">
+      <Filter>Source Files\Qt GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\qtgui\main.cpp">
+      <Filter>Source Files\Qt GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\qtgui\mainwindow.cpp">
+      <Filter>Source Files\Qt GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\qtgui\noisereductionwidget.cpp">
+      <Filter>Source Files\Qt GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\qtgui\openexroptionsdialog.cpp">
+      <Filter>Source Files\Qt GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\qtgui\panewidget.cpp">
+      <Filter>Source Files\Qt GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\qtgui\queue.cpp">
+      <Filter>Source Files\Qt GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\qtgui\renderview.cpp">
+      <Filter>Source Files\Qt GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\qtgui\tonemapwidget.cpp">
+      <Filter>Source Files\Qt GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\console\commandline.cpp">
+      <Filter>Source Files\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="qtgui\moc_aboutdialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtgui\moc_advancedinfowidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtgui\moc_batchprocessdialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtgui\moc_colorspacewidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtgui\moc_gammawidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtgui\moc_histogramview.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtgui\moc_histogramwidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtgui\moc_lenseffectswidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtgui\moc_lightgroupwidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtgui\moc_luxapp.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtgui\moc_mainwindow.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtgui\moc_noisereductionwidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtgui\moc_openexroptionsdialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtgui\moc_panewidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtgui\moc_queue.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtgui\moc_renderview.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtgui\moc_tonemapwidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qrc_icons.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qrc_splash.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qrc_images.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ui_aboutdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_advancedinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_batchprocessdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_colorspace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_gamma.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_histogram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_lenseffects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_lightgroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_luxrender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_noisereduction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_openexroptionsdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_pane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_tonemap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_aboutdialog.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_advancedinfowidget.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_batchprocessdialog.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_colorspacewidget.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_gammawidget.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_histogramview.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_histogramwidget.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_lenseffectswidget.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_lightgroupwidget.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_luxapp.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_mainwindow.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_noisereductionwidget.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_openexroptionsdialog.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_panewidget.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_queue.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_renderview.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_tonemapwidget.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\icons.qrc">
+      <Filter>Resource Files\Qt GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\splash.qrc">
+      <Filter>Resource Files\Qt GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\images.qrc">
+      <Filter>Resource Files\Qt GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\aboutdialog.ui">
+      <Filter>UI Files\Qt GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\advancedinfo.ui">
+      <Filter>UI Files\Qt GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\batchprocessdialog.ui">
+      <Filter>UI Files\Qt GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\colorspace.ui">
+      <Filter>UI Files\Qt GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\gamma.ui">
+      <Filter>UI Files\Qt GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\histogram.ui">
+      <Filter>UI Files\Qt GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\lenseffects.ui">
+      <Filter>UI Files\Qt GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\lightgroup.ui">
+      <Filter>UI Files\Qt GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\luxrender.ui">
+      <Filter>UI Files\Qt GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\noisereduction.ui">
+      <Filter>UI Files\Qt GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\openexroptionsdialog.ui">
+      <Filter>UI Files\Qt GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\pane.ui">
+      <Filter>UI Files\Qt GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\tonemap.ui">
+      <Filter>UI Files\Qt GUI</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resource Files\Qt GUI">
+      <UniqueIdentifier>{80493B64-3923-48F5-A6F5-15DEC285E54A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI Files\Qt GUI">
+      <UniqueIdentifier>{906FDC59-60B1-4230-B5EA-3FBC9DEC3818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{139AB3E9-94D9-430E-BF80-995733DA1835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{72DC9717-AC45-4331-B36B-691620A2A9D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{49131876-AA2F-4913-A1C3-A2029BE871DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI Files">
+      <UniqueIdentifier>{8276AECC-5E42-4705-A98D-1C42E56F6922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{2C8872DB-EF26-4D42-8193-B047D3B62BCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Console">
+      <UniqueIdentifier>{6A5D7670-9505-4C5E-9198-C00106298C99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Qt GUI">
+      <UniqueIdentifier>{CEC6EB07-064A-49BD-A8FC-2CF9AB9494A8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

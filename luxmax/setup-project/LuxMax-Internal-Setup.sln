@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "LuxMax-Internal-Setup 3Dsmax 2015", "LuxMax-Setup\LuxMax-Setup.vdproj", "{92624CFD-D9A2-48CD-9D75-656FD423AA74}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "LuxMax-Internal-Setup 3Dsmax 2016", "LuxMax-Setup-3dsmax-2016\LuxMax-Setup-3dsmax-2016.vdproj", "{D69F850C-3E83-4B60-A143-B8C052018B74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release 3dsmax 2016 x64|Default = Release 3dsmax 2016 x64|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92624CFD-D9A2-48CD-9D75-656FD423AA74}.Debug|Default.ActiveCfg = Debug
+		{92624CFD-D9A2-48CD-9D75-656FD423AA74}.Debug|Default.Build.0 = Debug
+		{92624CFD-D9A2-48CD-9D75-656FD423AA74}.Release 3dsmax 2016 x64|Default.ActiveCfg = Release 3dsmax 2016 x64
+		{92624CFD-D9A2-48CD-9D75-656FD423AA74}.Release 3dsmax 2016 x64|Default.Build.0 = Release 3dsmax 2016 x64
+		{92624CFD-D9A2-48CD-9D75-656FD423AA74}.Release|Default.ActiveCfg = Release
+		{92624CFD-D9A2-48CD-9D75-656FD423AA74}.Release|Default.Build.0 = Release
+		{D69F850C-3E83-4B60-A143-B8C052018B74}.Debug|Default.ActiveCfg = Debug
+		{D69F850C-3E83-4B60-A143-B8C052018B74}.Debug|Default.Build.0 = Debug
+		{D69F850C-3E83-4B60-A143-B8C052018B74}.Release 3dsmax 2016 x64|Default.ActiveCfg = Release 3dsmax 2016 x64
+		{D69F850C-3E83-4B60-A143-B8C052018B74}.Release 3dsmax 2016 x64|Default.Build.0 = Release 3dsmax 2016 x64
+		{D69F850C-3E83-4B60-A143-B8C052018B74}.Release|Default.ActiveCfg = Release
+		{D69F850C-3E83-4B60-A143-B8C052018B74}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

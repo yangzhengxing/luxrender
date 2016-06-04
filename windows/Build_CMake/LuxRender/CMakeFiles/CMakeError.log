@@ -1,0 +1,1020 @@
+Determining if files pthread.h exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3033970846.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:19:23。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec3033970846.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3033970846.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec3033970846.dir\Debug\cmTryCom.0E754451.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3033970846.dir\Debug\cmTryCom.0E754451.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec3033970846.dir\Debug\\" /Fd"cmTryCompileExec3033970846.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec3033970846.dir\Debug\\" /Fd"cmTryCompileExec3033970846.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec3033970846.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec3033970846.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec3033970846.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec3033970846.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.30
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+
+Determining if the Q_WS_X11 exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2338820371.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:19:24。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2338820371.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec2338820371.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec2338820371.dir\Debug\cmTryCom.47445387.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec2338820371.dir\Debug\cmTryCom.47445387.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec2338820371.dir\Debug\\" /Fd"cmTryCompileExec2338820371.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec2338820371.dir\Debug\\" /Fd"cmTryCompileExec2338820371.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  
+  CheckSymbolExists.cxx
+CheckSymbolExists.cxx(8): error C2065: 'Q_WS_X11' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2338820371.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2338820371.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2338820371.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckSymbolExists.cxx(8): error C2065: 'Q_WS_X11' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2338820371.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.46
+
+File D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1660740890.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:19:25。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec1660740890.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec1660740890.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec1660740890.dir\Debug\cmTryCom.182B3A72.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec1660740890.dir\Debug\cmTryCom.182B3A72.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec1660740890.dir\Debug\\" /Fd"cmTryCompileExec1660740890.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec1660740890.dir\Debug\\" /Fd"cmTryCompileExec1660740890.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  
+  CheckSymbolExists.cxx
+CheckSymbolExists.cxx(8): error C2065: 'Q_WS_QWS' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec1660740890.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec1660740890.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec1660740890.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckSymbolExists.cxx(8): error C2065: 'Q_WS_QWS' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec1660740890.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.37
+
+File D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1879147169.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:19:26。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec1879147169.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec1879147169.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec1879147169.dir\Debug\cmTryCom.B311B841.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec1879147169.dir\Debug\cmTryCom.B311B841.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec1879147169.dir\Debug\\" /Fd"cmTryCompileExec1879147169.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec1879147169.dir\Debug\\" /Fd"cmTryCompileExec1879147169.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  
+  CheckSymbolExists.cxx
+CheckSymbolExists.cxx(8): error C2065: 'Q_WS_MAC' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec1879147169.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec1879147169.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec1879147169.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckSymbolExists.cxx(8): error C2065: 'Q_WS_MAC' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec1879147169.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.37
+
+File D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files pthread.h exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2806967288.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:34:31。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2806967288.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec2806967288.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec2806967288.dir\Debug\cmTryCom.BD7192B0.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec2806967288.dir\Debug\cmTryCom.BD7192B0.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec2806967288.dir\Debug\\" /Fd"cmTryCompileExec2806967288.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec2806967288.dir\Debug\\" /Fd"cmTryCompileExec2806967288.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2806967288.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2806967288.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2806967288.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2806967288.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.24
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+
+Determining if the Q_WS_X11 exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec407442498.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:34:32。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec407442498.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec407442498.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec407442498.dir\Debug\cmTryCom.788E6F2F.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec407442498.dir\Debug\cmTryCom.788E6F2F.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec407442498.dir\Debug\\" /Fd"cmTryCompileExec407442498.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec407442498.dir\Debug\\" /Fd"cmTryCompileExec407442498.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  
+  CheckSymbolExists.cxx
+CheckSymbolExists.cxx(8): error C2065: 'Q_WS_X11' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec407442498.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec407442498.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec407442498.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckSymbolExists.cxx(8): error C2065: 'Q_WS_X11' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec407442498.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.39
+
+File D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec4230318369.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:34:34。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec4230318369.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec4230318369.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec4230318369.dir\Debug\cmTryCom.D2C13482.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec4230318369.dir\Debug\cmTryCom.D2C13482.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec4230318369.dir\Debug\\" /Fd"cmTryCompileExec4230318369.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec4230318369.dir\Debug\\" /Fd"cmTryCompileExec4230318369.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  
+  CheckSymbolExists.cxx
+CheckSymbolExists.cxx(8): error C2065: 'Q_WS_QWS' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec4230318369.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec4230318369.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec4230318369.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckSymbolExists.cxx(8): error C2065: 'Q_WS_QWS' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec4230318369.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.35
+
+File D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec4075407185.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:34:34。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec4075407185.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec4075407185.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec4075407185.dir\Debug\cmTryCom.3BFCC2E8.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec4075407185.dir\Debug\cmTryCom.3BFCC2E8.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec4075407185.dir\Debug\\" /Fd"cmTryCompileExec4075407185.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec4075407185.dir\Debug\\" /Fd"cmTryCompileExec4075407185.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  
+  CheckSymbolExists.cxx
+CheckSymbolExists.cxx(8): error C2065: 'Q_WS_MAC' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec4075407185.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec4075407185.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec4075407185.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckSymbolExists.cxx(8): error C2065: 'Q_WS_MAC' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec4075407185.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.37
+
+File D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files pthread.h exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2389410606.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:46:56。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2389410606.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec2389410606.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec2389410606.dir\Debug\cmTryCom.7A5F7BBC.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec2389410606.dir\Debug\cmTryCom.7A5F7BBC.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec2389410606.dir\Debug\\" /Fd"cmTryCompileExec2389410606.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec2389410606.dir\Debug\\" /Fd"cmTryCompileExec2389410606.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2389410606.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2389410606.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2389410606.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2389410606.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.25
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+
+Determining if the Q_WS_X11 exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1782947405.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:46:57。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec1782947405.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec1782947405.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec1782947405.dir\Debug\cmTryCom.93F44E76.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec1782947405.dir\Debug\cmTryCom.93F44E76.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec1782947405.dir\Debug\\" /Fd"cmTryCompileExec1782947405.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec1782947405.dir\Debug\\" /Fd"cmTryCompileExec1782947405.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  
+  CheckSymbolExists.cxx
+CheckSymbolExists.cxx(8): error C2065: 'Q_WS_X11' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec1782947405.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec1782947405.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec1782947405.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckSymbolExists.cxx(8): error C2065: 'Q_WS_X11' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec1782947405.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.38
+
+File D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec213376822.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:46:58。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec213376822.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec213376822.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec213376822.dir\Debug\cmTryCom.651B6F09.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec213376822.dir\Debug\cmTryCom.651B6F09.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec213376822.dir\Debug\\" /Fd"cmTryCompileExec213376822.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec213376822.dir\Debug\\" /Fd"cmTryCompileExec213376822.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  
+  CheckSymbolExists.cxx
+CheckSymbolExists.cxx(8): error C2065: 'Q_WS_QWS' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec213376822.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec213376822.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec213376822.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckSymbolExists.cxx(8): error C2065: 'Q_WS_QWS' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec213376822.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.37
+
+File D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec845806992.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:46:58。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec845806992.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec845806992.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec845806992.dir\Debug\cmTryCom.BAF35450.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec845806992.dir\Debug\cmTryCom.BAF35450.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec845806992.dir\Debug\\" /Fd"cmTryCompileExec845806992.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec845806992.dir\Debug\\" /Fd"cmTryCompileExec845806992.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  
+  CheckSymbolExists.cxx
+CheckSymbolExists.cxx(8): error C2065: 'Q_WS_MAC' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec845806992.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec845806992.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec845806992.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckSymbolExists.cxx(8): error C2065: 'Q_WS_MAC' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec845806992.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.37
+
+File D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files pthread.h exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec250976168.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:59:17。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec250976168.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec250976168.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec250976168.dir\Debug\cmTryCom.D4B9D939.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec250976168.dir\Debug\cmTryCom.D4B9D939.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec250976168.dir\Debug\\" /Fd"cmTryCompileExec250976168.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec250976168.dir\Debug\\" /Fd"cmTryCompileExec250976168.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec250976168.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec250976168.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec250976168.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec250976168.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.25
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+
+Determining if the Q_WS_X11 exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec132420803.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:59:17。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec132420803.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec132420803.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec132420803.dir\Debug\cmTryCom.CAA3C3B1.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec132420803.dir\Debug\cmTryCom.CAA3C3B1.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec132420803.dir\Debug\\" /Fd"cmTryCompileExec132420803.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec132420803.dir\Debug\\" /Fd"cmTryCompileExec132420803.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  
+  CheckSymbolExists.cxx
+CheckSymbolExists.cxx(8): error C2065: 'Q_WS_X11' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec132420803.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec132420803.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec132420803.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckSymbolExists.cxx(8): error C2065: 'Q_WS_X11' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec132420803.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.38
+
+File D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec590944561.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:59:18。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec590944561.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec590944561.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec590944561.dir\Debug\cmTryCom.74575600.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec590944561.dir\Debug\cmTryCom.74575600.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec590944561.dir\Debug\\" /Fd"cmTryCompileExec590944561.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec590944561.dir\Debug\\" /Fd"cmTryCompileExec590944561.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  
+  CheckSymbolExists.cxx
+CheckSymbolExists.cxx(8): error C2065: 'Q_WS_QWS' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec590944561.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec590944561.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec590944561.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckSymbolExists.cxx(8): error C2065: 'Q_WS_QWS' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec590944561.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.37
+
+File D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3605026618.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:59:19。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec3605026618.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3605026618.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec3605026618.dir\Debug\cmTryCom.1575E145.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3605026618.dir\Debug\cmTryCom.1575E145.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec3605026618.dir\Debug\\" /Fd"cmTryCompileExec3605026618.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec3605026618.dir\Debug\\" /Fd"cmTryCompileExec3605026618.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  
+  CheckSymbolExists.cxx
+CheckSymbolExists.cxx(8): error C2065: 'Q_WS_MAC' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec3605026618.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec3605026618.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec3605026618.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckSymbolExists.cxx(8): error C2065: 'Q_WS_MAC' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec3605026618.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.37
+
+File D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files pthread.h exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec351925287.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/23 19:30:51。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec351925287.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec351925287.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec351925287.dir\Debug\cmTryCom.FEC4486B.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec351925287.dir\Debug\cmTryCom.FEC4486B.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec351925287.dir\Debug\\" /Fd"cmTryCompileExec351925287.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec351925287.dir\Debug\\" /Fd"cmTryCompileExec351925287.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec351925287.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec351925287.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec351925287.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec351925287.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.24
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+
+Determining if the Q_WS_X11 exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2603417414.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/23 19:30:51。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2603417414.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec2603417414.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec2603417414.dir\Debug\cmTryCom.F9CCEF76.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec2603417414.dir\Debug\cmTryCom.F9CCEF76.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec2603417414.dir\Debug\\" /Fd"cmTryCompileExec2603417414.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec2603417414.dir\Debug\\" /Fd"cmTryCompileExec2603417414.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  
+  CheckSymbolExists.cxx
+CheckSymbolExists.cxx(8): error C2065: 'Q_WS_X11' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2603417414.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2603417414.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2603417414.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckSymbolExists.cxx(8): error C2065: 'Q_WS_X11' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2603417414.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.53
+
+File D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3333613052.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/23 19:30:53。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec3333613052.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3333613052.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec3333613052.dir\Debug\cmTryCom.B572B24C.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3333613052.dir\Debug\cmTryCom.B572B24C.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec3333613052.dir\Debug\\" /Fd"cmTryCompileExec3333613052.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec3333613052.dir\Debug\\" /Fd"cmTryCompileExec3333613052.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  
+  CheckSymbolExists.cxx
+CheckSymbolExists.cxx(8): error C2065: 'Q_WS_QWS' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec3333613052.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec3333613052.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec3333613052.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckSymbolExists.cxx(8): error C2065: 'Q_WS_QWS' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec3333613052.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.36
+
+File D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2942583601.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/23 19:30:53。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2942583601.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec2942583601.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec2942583601.dir\Debug\cmTryCom.24E810F8.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec2942583601.dir\Debug\cmTryCom.24E810F8.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec2942583601.dir\Debug\\" /Fd"cmTryCompileExec2942583601.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /ID:\luxrender\windows_deps\include\Qt\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec2942583601.dir\Debug\\" /Fd"cmTryCompileExec2942583601.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue CheckSymbolExists.cxx
+  
+  CheckSymbolExists.cxx
+CheckSymbolExists.cxx(8): error C2065: 'Q_WS_MAC' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2942583601.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2942583601.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2942583601.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckSymbolExists.cxx(8): error C2065: 'Q_WS_MAC' : undeclared identifier [D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\CMakeTmp\cmTryCompileExec2942583601.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.38
+
+File D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

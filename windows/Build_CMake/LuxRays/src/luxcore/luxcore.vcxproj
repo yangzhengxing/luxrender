@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{E2E0C3A1-8705-4707-A255-0F599EE643CA}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>luxcore</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRays\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">luxcore.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">luxcore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRays\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">luxcore.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">luxcore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRays\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">luxcore.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">luxcore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRays\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">luxcore.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">luxcore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\luxrender\windows_deps\include;D:\Cuda\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\luxrays\include;D:\luxrender\windows_deps\include\Python3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DISABLED_DEBUG;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;BOOST_ALL_NO_LIB;FREEIMAGE_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;CPP_API_EXPORTS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DISABLED_DEBUG;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;BOOST_ALL_NO_LIB;FREEIMAGE_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;CPP_API_EXPORTS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\luxrender\windows_deps\include;D:\Cuda\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\luxrays\include;D:\luxrender\windows_deps\include\Python3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\luxrender\windows_deps\include;D:\Cuda\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\luxrays\include;D:\luxrender\windows_deps\include\Python3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /Qfast_transcendentals %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\luxrender\windows_deps\include;D:\Cuda\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\luxrays\include;D:\luxrender\windows_deps\include\Python3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4244;4756;4267;4056;4305;4800</DisableSpecificWarnings>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>true</OmitFramePointers>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;BOOST_ALL_NO_LIB;FREEIMAGE_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;CPP_API_EXPORTS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;BOOST_ALL_NO_LIB;FREEIMAGE_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;CPP_API_EXPORTS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\luxrender\windows_deps\include;D:\Cuda\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\luxrays\include;D:\luxrender\windows_deps\include\Python3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\luxrender\windows_deps\include;D:\Cuda\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\luxrays\include;D:\luxrender\windows_deps\include\Python3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\luxrender\windows_deps\include;D:\Cuda\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\luxrays\include;D:\luxrender\windows_deps\include\Python3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;BOOST_ALL_NO_LIB;FREEIMAGE_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;CPP_API_EXPORTS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;BOOST_ALL_NO_LIB;FREEIMAGE_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;CPP_API_EXPORTS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\luxrender\windows_deps\include;D:\Cuda\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\luxrays\include;D:\luxrender\windows_deps\include\Python3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\luxrender\windows_deps\include;D:\Cuda\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\luxrays\include;D:\luxrender\windows_deps\include\Python3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> /Qfast_transcendentals %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\luxrender\windows_deps\include;D:\Cuda\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\luxrays\include;D:\luxrender\windows_deps\include\Python3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4756;4267;4056;4305;4800</DisableSpecificWarnings>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>true</OmitFramePointers>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;BOOST_ALL_NO_LIB;FREEIMAGE_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;CPP_API_EXPORTS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;BOOST_ALL_NO_LIB;FREEIMAGE_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;CPP_API_EXPORTS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\luxrender\windows_deps\include;D:\Cuda\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\luxrays\include;D:\luxrender\windows_deps\include\Python3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\luxrender\windows_deps\include;D:\Cuda\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\luxrays\include;D:\luxrender\windows_deps\include\Python3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\4bdd528ad51fbbb4a8f15c7a82e66b19\luxparse.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">[BISON][lux_parser] Building parser with bison 2.7</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\luxrender\luxrays\src\luxcore
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows\support\bin\win_bison.exe -d -o D:/luxrender/luxrays/src/luxcore/luxparser/luxparse.cpp D:/luxrender/luxrays/src/luxcore/luxparser/luxparse.y
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/4bdd528ad51fbbb4a8f15c7a82e66b19/luxparse.cpp.rule;D:\luxrender\luxrays\src\luxcore\luxparser\luxparse.y;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\luxrays\src\luxcore\luxparser\luxparse.cpp;D:\luxrender\luxrays\src\luxcore\luxparser\luxparse.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">[BISON][lux_parser] Building parser with bison 2.7</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\luxrender\luxrays\src\luxcore
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows\support\bin\win_bison.exe -d -o D:/luxrender/luxrays/src/luxcore/luxparser/luxparse.cpp D:/luxrender/luxrays/src/luxcore/luxparser/luxparse.y
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/4bdd528ad51fbbb4a8f15c7a82e66b19/luxparse.cpp.rule;D:\luxrender\luxrays\src\luxcore\luxparser\luxparse.y;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\luxrays\src\luxcore\luxparser\luxparse.cpp;D:\luxrender\luxrays\src\luxcore\luxparser\luxparse.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">[BISON][lux_parser] Building parser with bison 2.7</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\luxrender\luxrays\src\luxcore
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows\support\bin\win_bison.exe -d -o D:/luxrender/luxrays/src/luxcore/luxparser/luxparse.cpp D:/luxrender/luxrays/src/luxcore/luxparser/luxparse.y
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/4bdd528ad51fbbb4a8f15c7a82e66b19/luxparse.cpp.rule;D:\luxrender\luxrays\src\luxcore\luxparser\luxparse.y;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\luxrays\src\luxcore\luxparser\luxparse.cpp;D:\luxrender\luxrays\src\luxcore\luxparser\luxparse.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">[BISON][lux_parser] Building parser with bison 2.7</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\luxrender\luxrays\src\luxcore
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows\support\bin\win_bison.exe -d -o D:/luxrender/luxrays/src/luxcore/luxparser/luxparse.cpp D:/luxrender/luxrays/src/luxcore/luxparser/luxparse.y
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/4bdd528ad51fbbb4a8f15c7a82e66b19/luxparse.cpp.rule;D:\luxrender\luxrays\src\luxcore\luxparser\luxparse.y;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\luxrays\src\luxcore\luxparser\luxparse.cpp;D:\luxrender\luxrays\src\luxcore\luxparser\luxparse.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\4bdd528ad51fbbb4a8f15c7a82e66b19\luxlex.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">[FLEX][lux_lexer] Building scanner with flex 2.5.37</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\luxrender\luxrays\src\luxcore
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows\support\bin\win_flex.exe --wincompat -oD:/luxrender/luxrays/src/luxcore/luxparser/luxlex.cpp D:/luxrender/luxrays/src/luxcore/luxparser/luxlex.l
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/4bdd528ad51fbbb4a8f15c7a82e66b19/luxlex.cpp.rule;D:\luxrender\luxrays\src\luxcore\luxparser\luxlex.l;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\luxrays\src\luxcore\luxparser\luxlex.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">[FLEX][lux_lexer] Building scanner with flex 2.5.37</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\luxrender\luxrays\src\luxcore
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows\support\bin\win_flex.exe --wincompat -oD:/luxrender/luxrays/src/luxcore/luxparser/luxlex.cpp D:/luxrender/luxrays/src/luxcore/luxparser/luxlex.l
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/4bdd528ad51fbbb4a8f15c7a82e66b19/luxlex.cpp.rule;D:\luxrender\luxrays\src\luxcore\luxparser\luxlex.l;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\luxrays\src\luxcore\luxparser\luxlex.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">[FLEX][lux_lexer] Building scanner with flex 2.5.37</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\luxrender\luxrays\src\luxcore
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows\support\bin\win_flex.exe --wincompat -oD:/luxrender/luxrays/src/luxcore/luxparser/luxlex.cpp D:/luxrender/luxrays/src/luxcore/luxparser/luxlex.l
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/4bdd528ad51fbbb4a8f15c7a82e66b19/luxlex.cpp.rule;D:\luxrender\luxrays\src\luxcore\luxparser\luxlex.l;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\luxrays\src\luxcore\luxparser\luxlex.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">[FLEX][lux_lexer] Building scanner with flex 2.5.37</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\luxrender\luxrays\src\luxcore
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows\support\bin\win_flex.exe --wincompat -oD:/luxrender/luxrays/src/luxcore/luxparser/luxlex.cpp D:/luxrender/luxrays/src/luxcore/luxparser/luxlex.l
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/4bdd528ad51fbbb4a8f15c7a82e66b19/luxlex.cpp.rule;D:\luxrender\luxrays\src\luxcore\luxparser\luxlex.l;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\luxrays\src\luxcore\luxparser\luxlex.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxcore\luxcore.cpp" />
+    <ClCompile Include="D:\luxrender\luxrays\src\luxcore\luxparser\luxparse.cpp" />
+    <ClCompile Include="D:\luxrender\luxrays\src\luxcore\luxparser\luxlex.cpp" />
+    <None Include="D:\luxrender\luxrays\src\luxcore\luxparser\luxparse.y" />
+    <None Include="D:\luxrender\luxrays\src\luxcore\luxparser\luxlex.l" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

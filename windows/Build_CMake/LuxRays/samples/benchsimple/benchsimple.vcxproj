@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{2FDBF822-CE3C-4948-AFF2-A5DED6ACCA30}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>benchsimple</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRays\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">benchsimple.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">benchsimple</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRays\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">benchsimple.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">benchsimple</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRays\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">benchsimple.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">benchsimple</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRays\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">benchsimple.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">benchsimple</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\luxrender\windows_deps\include;D:\Cuda\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\luxrays\include;D:\luxrender\windows_deps\include\Python3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DISABLED_DEBUG;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;BOOST_ALL_NO_LIB;FREEIMAGE_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DISABLED_DEBUG;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;BOOST_ALL_NO_LIB;FREEIMAGE_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\luxrender\windows_deps\include;D:\Cuda\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\luxrays\include;D:\luxrender\windows_deps\include\Python3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\luxrender\windows_deps\include;D:\Cuda\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\luxrays\include;D:\luxrender\windows_deps\include\Python3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\luxrays.lib;D:\luxrender\windows_deps\x64\Release\lib\embree.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_thread-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_program_options-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_filesystem-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_serialization-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_iostreams-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_regex-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_system-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_python-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_chrono-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\OpenImageIO.lib;opengl32.lib;D:\Cuda\lib\x64\OpenCL.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/luxrender/windows_deps/x64/Release/lib;D:/luxrender/windows_deps/x64/Release/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>D:/luxrender/windows/Build_CMake/LuxRays/samples/benchsimple/Debug/benchsimple.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/luxrender/windows/Build_CMake/LuxRays/bin/Debug/benchsimple.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /Qfast_transcendentals %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\luxrender\windows_deps\include;D:\Cuda\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\luxrays\include;D:\luxrender\windows_deps\include\Python3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4244;4756;4267;4056;4305;4800</DisableSpecificWarnings>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>true</OmitFramePointers>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;BOOST_ALL_NO_LIB;FREEIMAGE_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;BOOST_ALL_NO_LIB;FREEIMAGE_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\luxrender\windows_deps\include;D:\Cuda\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\luxrays\include;D:\luxrender\windows_deps\include\Python3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\luxrender\windows_deps\include;D:\Cuda\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\luxrays\include;D:\luxrender\windows_deps\include\Python3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\luxrays.lib;D:\luxrender\windows_deps\x64\Release\lib\embree.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_thread-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_program_options-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_filesystem-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_serialization-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_iostreams-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_regex-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_system-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_python-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_chrono-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\OpenImageIO.lib;opengl32.lib;D:\Cuda\lib\x64\OpenCL.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/luxrender/windows_deps/x64/Release/lib;D:/luxrender/windows_deps/x64/Release/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>D:/luxrender/windows/Build_CMake/LuxRays/samples/benchsimple/Release/benchsimple.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/luxrender/windows/Build_CMake/LuxRays/bin/Release/benchsimple.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\luxrender\windows_deps\include;D:\Cuda\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\luxrays\include;D:\luxrender\windows_deps\include\Python3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;BOOST_ALL_NO_LIB;FREEIMAGE_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;BOOST_ALL_NO_LIB;FREEIMAGE_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\luxrender\windows_deps\include;D:\Cuda\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\luxrays\include;D:\luxrender\windows_deps\include\Python3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\luxrender\windows_deps\include;D:\Cuda\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\luxrays\include;D:\luxrender\windows_deps\include\Python3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\MinSizeRel\luxrays.lib;D:\luxrender\windows_deps\x64\Release\lib\embree.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_thread-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_program_options-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_filesystem-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_serialization-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_iostreams-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_regex-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_system-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_python-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_chrono-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\OpenImageIO.lib;opengl32.lib;D:\Cuda\lib\x64\OpenCL.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/luxrender/windows_deps/x64/Release/lib;D:/luxrender/windows_deps/x64/Release/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>D:/luxrender/windows/Build_CMake/LuxRays/samples/benchsimple/MinSizeRel/benchsimple.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/luxrender/windows/Build_CMake/LuxRays/bin/MinSizeRel/benchsimple.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> /Qfast_transcendentals %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\luxrender\windows_deps\include;D:\Cuda\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\luxrays\include;D:\luxrender\windows_deps\include\Python3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4756;4267;4056;4305;4800</DisableSpecificWarnings>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>true</OmitFramePointers>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;BOOST_ALL_NO_LIB;FREEIMAGE_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;BOOST_ALL_NO_LIB;FREEIMAGE_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\luxrender\windows_deps\include;D:\Cuda\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\luxrays\include;D:\luxrender\windows_deps\include\Python3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\luxrender\windows_deps\include;D:\Cuda\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\luxrays\include;D:\luxrender\windows_deps\include\Python3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\luxrays.lib;D:\luxrender\windows_deps\x64\Release\lib\embree.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_thread-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_program_options-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_filesystem-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_serialization-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_iostreams-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_regex-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_system-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_python-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_chrono-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\OpenImageIO.lib;opengl32.lib;D:\Cuda\lib\x64\OpenCL.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/luxrender/windows_deps/x64/Release/lib;D:/luxrender/windows_deps/x64/Release/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>D:/luxrender/windows/Build_CMake/LuxRays/samples/benchsimple/RelWithDebInfo/benchsimple.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/luxrender/windows/Build_CMake/LuxRays/bin/RelWithDebInfo/benchsimple.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\luxrender\luxrays\samples\benchsimple\benchsimple.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/luxrender/windows/Build_CMake/LuxRays/src/luxrays/luxrays.vcxproj">
+      <Project>8761CA6A-D590-484E-87B3-AACAE1265DC4</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

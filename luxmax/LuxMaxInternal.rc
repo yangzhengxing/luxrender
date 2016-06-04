@@ -1,0 +1,266 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+#if defined(APSTUDIO_INVOKED) || !defined(TABBED_RENDER_DIALOG)
+IDD_RENDER_PARAMS DIALOGEX 0, 0, 281, 193
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "Filename",IDC_FILENAME,101,11,162,11,SS_SUNKEN | NOT WS_VISIBLE
+    COMBOBOX        IDC_RENDERTYPE,75,33,191,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Render Type:",IDC_STATIC,12,36,46,8
+    GROUPBOX        "Output scene to files in folder:",IDC_STATIC,5,2,272,26,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_STATIC,6,25,272,66
+    PUSHBUTTON      "Browse",IDC_BUTTON1,9,9,32,14,NOT WS_VISIBLE
+    PUSHBUTTON      "...",IDC_FILE,265,11,12,12,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Render Halt Time (sec):",IDC_STATIC,12,73,78,8
+    EDITTEXT        IDC_HALTTIME,90,70,49,14,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "",IDC_STATIC,7,98,269,37
+    CONTROL         "opencl cpu",IDC_CHECK_OPENCL_CPU,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,120,51,10
+    CONTROL         "opencl gpu",IDC_CHECK_OPENCL_GPU,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,106,51,10
+    COMBOBOX        IDC_COMBO_FILM_OUTPUT_TYPE,75,50,191,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Film output type:",IDC_STATIC,12,52,51,8
+    CONTROL         "Enable",IDC_OUTPUTSCENE,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,50,13,38,10
+    GROUPBOX        " ",IDC_STATIC,7,142,269,46
+    CONTROL         "Default Light",IDC_CHECK_DEFAULT_LIGHT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,151,56,10
+    CONTROL         "Dective when any light avilable",IDC_CHECK_DEFUALT_LIGHT_DISABLE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,110,151,114,10
+    CONTROL         "Override Matterials",IDC_CHECK_OVERRIDE_MATTERIALS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,167,75,10
+    LTEXT           "Refresh FrameBuffer (sec):",IDC_STATIC,145,73,92,8
+    EDITTEXT        IDC_VBINTERVAL,234,70,31,14,ES_AUTOHSCROLL | ES_NUMBER
+END
+#endif
+
+IDD_RENDER_PROG DIALOG 0, 0, 222, 59
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,5,1,212,30
+    LTEXT           "File:",IDC_STATIC,18,14,14,8
+    LTEXT           "filename",IDC_FILENAME,37,14,164,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,33,12,177,13
+END
+
+#if defined(APSTUDIO_INVOKED) || defined(TABBED_RENDER_DIALOG)
+#if defined(APSTUDIO_INVOKED)
+IDD_RENDER_PARAMS$(TABBED_RENDER_DIALOG) DIALOGEX 0, 0, 211, 109
+#else
+IDD_RENDER_PARAMS DIALOGEX 0, 0, 211, 109
+#endif
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "",IDC_STATIC,4,2,203,28
+    LTEXT           "Filename",IDC_FILENAME,29,13,173,11,SS_SUNKEN
+    PUSHBUTTON      "...",IDC_FILE,9,12,12,12
+    COMBOBOX        IDC_COMBO1,61,34,145,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Render Type:",IDC_STATIC,5,35,51,8
+END
+#endif
+
+IDD_RENDER_SAMPLER DIALOGEX 0, 0, 281, 59
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "",-1,5,3,272,51
+    LTEXT           "Sampler Type:",-1,13,15,51,8
+    COMBOBOX        IDC_SAMPLER_TYPE_COMBO,69,12,191,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_SOBOL_Depth,69,31,49,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Max depth :",-1,13,33,52,8
+END
+
+IDD_RENDER_FILTER DIALOGEX 0, 0, 281, 102
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "",-1,5,3,272,93
+    LTEXT           "Filter Type:",-1,13,15,54,8
+    EDITTEXT        IDC_SOBOL_Depth,69,31,49,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Filter width :",-1,13,33,52,8
+    EDITTEXT        IDC_SOBOL_Depth2,211,30,49,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    LTEXT           "Sharpness :",-1,148,33,52,8
+    EDITTEXT        IDC_SOBOL_Depth3,69,50,49,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Halt threshold :",-1,13,53,52,8
+    EDITTEXT        IDC_SOBOL_Depth4,211,50,49,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Cover satler step :",-1,148,52,62,8
+    EDITTEXT        IDC_SOBOL_Depth5,69,69,49,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Halt samples :",-1,13,72,52,8
+    EDITTEXT        IDC_SOBOL_Depth6,211,69,49,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Halt time :",-1,148,71,52,8
+    COMBOBOX        IDC_FILTERS_TYPE_COMBO,69,12,191,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DEPTH DIALOGEX 0, 0, 281, 49
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "",-1,5,3,272,41
+    LTEXT           "Lens radius :",-1,13,13,52,8
+    EDITTEXT        IDC_CAMERA_DEPTH,62,10,46,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_LENSRADIUS,"CustEdit",WS_TABSTOP,62,25,36,11
+    CONTROL         "",IDC_LENSRADIUS_SPIN,"SpinnerControl",0x0,99,25,9,11
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#include ""veroverrides.h""\r\n"
+    "#include ""maxversion.r""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_RENDER_PARAMS, DIALOG
+    BEGIN
+        VERTGUIDE, 13
+        HORZGUIDE, 64
+    END
+
+    IDD_RENDER_PROG, DIALOG
+    BEGIN
+    END
+
+    "IDD_RENDER_PARAMS$(TABBED_RENDER_DIALOG)", DIALOG
+    BEGIN
+    END
+
+    IDD_RENDER_SAMPLER, DIALOG
+    BEGIN
+        VERTGUIDE, 13
+    END
+
+    IDD_RENDER_FILTER, DIALOG
+    BEGIN
+        VERTGUIDE, 13
+        VERTGUIDE, 152
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_DEPTH, DIALOG
+    BEGIN
+        VERTGUIDE, 13
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+#if defined(APSTUDIO_INVOKED) || !defined(TABBED_RENDER_DIALOG)
+IDD_RENDER_PARAMS DLGINIT
+BEGIN
+    IDC_RENDERTYPE, 0x403, 8, 0
+0x4150, 0x4854, 0x5043, 0x0055, 
+    IDC_COMBO_FILM_OUTPUT_TYPE, 0x403, 16, 0
+0x4752, 0x4142, 0x545f, 0x4e4f, 0x4d45, 0x5041, 0x4550, 0x0044, 
+    0
+END
+#endif
+
+IDD_RENDER_SAMPLER DLGINIT
+BEGIN
+    IDC_SAMPLER_TYPE_COMBO, 0x403, 6, 0
+0x6f53, 0x6f62, 0x006c, 
+    0
+END
+
+IDD_RENDER_FILTER DLGINIT
+BEGIN
+    IDC_FILTERS_TYPE_COMBO, 0x403, 6, 0
+0x6f53, 0x6f62, 0x006c, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_LIBDESCRIPTION      "LuxMax"
+    IDS_VRENDTITLE          "LuxMax Internal"
+    IDS_OPTIONS             "Render to file"
+    IDS_WRITE_FILE          "Select Image File to Write"
+    IDS_RENDER_TYPE_PATHCPU "PATHCPU"
+    IDS_RENDER_ERR          "Render Error"
+    IDS_CANT_OPEN           "Can't open file %s"
+    IDS_FILE                "File"
+    IDS_FILE_ALREADY_EXISTS "File %s exists: do you want to overwrite it?"
+    IDS_RENDER_TYPE         "Render Type"
+    IDS_SAMPLER             "Image Sampler"
+    IDS_FILTERS             "Image Filter"
+    IDS_DEPTH               "Depth Of Field"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#include "veroverrides.h"
+#include "maxversion.r"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

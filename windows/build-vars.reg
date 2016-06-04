@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Environment]
+"LUX_WINDOWS_BUILD_ROOT"="F:\\code\\Base\\windows" 
+"LUX_DEPS_ROOT"="F:\\code\\Base\\deps" 
+"LUX_X86_OCL_LIBS"="C:\\Program Files (x86)\\AMD APP SDK\\2.9\\lib\\x86" 
+"LUX_X64_OCL_LIBS"="C:\\Program Files (x86)\\AMD APP SDK\\2.9\\lib\\x86_64" 
+"LUX_X86_OCL_INCLUDE"="C:\\Program Files (x86)\\AMD APP SDK\\2.9\\include" 
+"LUX_X64_OCL_INCLUDE"="C:\\Program Files (x86)\\AMD APP SDK\\2.9\\include" 
+"LUX_X86_BOOST_ROOT"="F:\\code\\Base\\deps\\x86\\boost_1_56_0" 
+"LUX_X64_BOOST_ROOT"="F:\\code\\Base\\deps\\x64\\boost_1_56_0" 
+"LUX_X86_QT_ROOT"="F:\\code\\Base\\deps\\x86\\qt-everywhere-opensource-src-4.8.6" 
+"LUX_X64_QT_ROOT"="F:\\code\\Base\\deps\\x64\\qt-everywhere-opensource-src-4.8.6" 

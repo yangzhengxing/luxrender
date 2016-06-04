@@ -1,0 +1,3 @@
+Authors:
+
+Stig Atle "Hedphelym" Steffensen <StigAtle@cryptolab.net>, Omid Ghotbi "TAO" <omidt.gh@gmail.com>

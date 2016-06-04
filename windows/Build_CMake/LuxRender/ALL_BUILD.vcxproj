@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{A9EFDC95-4AA9-4377-A57D-D5A92EDBAD9E}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\ae438b25d8e5b438a7a14362ec510987\ALL_BUILD.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/ae438b25d8e5b438a7a14362ec510987/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/ae438b25d8e5b438a7a14362ec510987/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/ae438b25d8e5b438a7a14362ec510987/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/ae438b25d8e5b438a7a14362ec510987/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\ALL_BUILD" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/luxrender/windows/Build_CMake/LuxRender/luxShared.vcxproj">
+      <Project>7769438E-021C-4169-8B0E-10415F23E583</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/luxrender/windows/Build_CMake/LuxRender/luxcomp.vcxproj">
+      <Project>3D226DEC-9659-425E-825C-AD7E7CE73476</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/luxrender/windows/Build_CMake/LuxRender/luxconsole.vcxproj">
+      <Project>E5C5EB78-8434-4D4F-A3B7-5E5E54EE65ED</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/luxrender/windows/Build_CMake/LuxRender/luxmerger.vcxproj">
+      <Project>5BF5FA3B-DFFB-4021-A694-D22398D9DDF1</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/luxrender/windows/Build_CMake/LuxRender/luxrender.vcxproj">
+      <Project>197B3E4C-7BC4-49FF-A91C-D61A9FA8AE2E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/luxrender/windows/Build_CMake/LuxRender/luxvr.vcxproj">
+      <Project>67B5C7DB-DBA7-42F1-A30D-6412DD98A269</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/luxrender/windows/Build_CMake/LuxRender/pylux.vcxproj">
+      <Project>8951F206-D20C-476F-AE1E-A68BA7CAFB8C</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

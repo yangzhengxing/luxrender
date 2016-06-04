@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\luxrender\lux\python\binding.cpp">
+      <Filter>Source Files\Python</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{139AB3E9-94D9-430E-BF80-995733DA1835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Python">
+      <UniqueIdentifier>{1F92F5E4-0039-4383-8EF1-368FC71343A5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

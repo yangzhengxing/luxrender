@@ -1,0 +1,8 @@
+D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/ALL_BUILD.dir
+D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/luxShared.dir
+D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/luxcomp.dir
+D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/luxconsole.dir
+D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/luxmerger.dir
+D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/luxrender.dir
+D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/luxvr.dir
+D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/pylux.dir

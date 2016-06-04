@@ -1,0 +1,74 @@
+﻿Build started 2016/4/3 17:16:55.
+     1>Project "D:\luxrender\windows\Build_CMake\LuxRays\samples\luxcoreui\luxcoreui.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\luxrender\windows_deps\include /ID:\Cuda\include /ID:\luxrender\windows_deps\include\Boost /ID:\luxrender\windows_deps\include\OpenEXR /ID:\luxrender\windows_deps\include\OpenImageIO /ID:\luxrender\luxrays\include /ID:\luxrender\windows_deps\include\Python3 /I"D:\luxrender\luxrays\samples\luxcoreui\deps\glfw-3.1.1\include" /ID:\luxrender\luxrays\samples\luxcoreui\deps\nfd\include /I"D:\luxrender\luxrays\samples\luxcoreui\deps\imgui-1.46" /Zi /nologo /W0 /WX- /MP /Od /Ob2 /Oi /Ot /Oy /GT /GL /D WIN32 /D _WINDOWS /D NDEBUG /D WIN32_LEAN_AND_MEAN /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D __SSE2__ /D __SSE__ /D __MMX__ /D BOOST_ALL_NO_LIB /D FREEIMAGE_LIB /D FREEGLUT_STATIC /D GLEW_STATIC /D BOOST_FILESYSTEM_NO_DEPRECATED /D BOOST_STATIC_LIB /D BOOST_PYTHON_STATIC_LIB /D "CMAKE_INTDIR=\"Release\"" /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"luxcoreui.dir\Release\\" /Fd"luxcoreui.dir\Release\vc120.pdb" /Gd /TP /wd4244 /wd4756 /wd4267 /wd4056 /wd4305 /wd4800 /errorReport:prompt  /Qfast_transcendentals D:\luxrender\luxrays\samples\luxcoreui\luxcoreui.cpp D:\luxrender\luxrays\samples\luxcoreui\luxcoreapp.cpp D:\luxrender\luxrays\samples\luxcoreui\uiloop.cpp D:\luxrender\luxrays\samples\luxcoreui\uikeys.cpp D:\luxrender\luxrays\samples\luxcoreui\uimenu.cpp D:\luxrender\luxrays\samples\luxcoreui\uimouse.cpp D:\luxrender\luxrays\samples\luxcoreui\helpwindow.cpp D:\luxrender\luxrays\samples\luxcoreui\logwindow.cpp D:\luxrender\luxrays\samples\luxcoreui\objectwindow.cpp D:\luxrender\luxrays\samples\luxcoreui\objecteditorwindow.cpp D:\luxrender\luxrays\samples\luxcoreui\acceleratorwindow.cpp D:\luxrender\luxrays\samples\luxcoreui\epsilonwindow.cpp D:\luxrender\luxrays\samples\luxcoreui\filmchannelswindow.cpp D:\luxrender\luxrays\samples\luxcoreui\filmoutputswindow.cpp D:\luxrender\luxrays\samples\luxcoreui\filmradiancegroupswindow.cpp D:\luxrender\luxrays\samples\luxcoreui\imagewindow.cpp D:\luxrender\luxrays\samples\luxcoreui\lightstrategywindow.cpp D:\luxrender\luxrays\samples\luxcoreui\ocldevicewindow.cpp D:\luxrender\luxrays\samples\luxcoreui\pixelfilterwindow.cpp D:\luxrender\luxrays\samples\luxcoreui\renderenginewindow.cpp D:\luxrender\luxrays\samples\luxcoreui\samplerwindow.cpp D:\luxrender\luxrays\samples\luxcoreui\statswindow.cpp D:\luxrender\luxrays\samples\luxcoreui\imgui_impl_glfw.cpp D:\luxrender\luxrays\samples\luxcoreui\resources\luxlogo_bg.cpp "D:\luxrender\luxrays\samples\luxcoreui\deps\imgui-1.46\imgui.cpp" "D:\luxrender\luxrays\samples\luxcoreui\deps\imgui-1.46\imgui_demo.cpp" "D:\luxrender\luxrays\samples\luxcoreui\deps\imgui-1.46\imgui_draw.cpp" D:\luxrender\luxrays\samples\luxcoreui\deps\nfd\nfd_win.cpp
+         luxcoreui.cpp
+         luxcoreapp.cpp
+         uiloop.cpp
+         uikeys.cpp
+         uimenu.cpp
+         uimouse.cpp
+         helpwindow.cpp
+         logwindow.cpp
+         objectwindow.cpp
+         objecteditorwindow.cpp
+         acceleratorwindow.cpp
+         epsilonwindow.cpp
+         filmchannelswindow.cpp
+         filmoutputswindow.cpp
+         filmradiancegroupswindow.cpp
+         imagewindow.cpp
+         lightstrategywindow.cpp
+         ocldevicewindow.cpp
+         pixelfilterwindow.cpp
+         renderenginewindow.cpp
+         samplerwindow.cpp
+         statswindow.cpp
+         imgui_impl_glfw.cpp
+         luxlogo_bg.cpp
+         imgui.cpp
+         imgui_demo.cpp
+         imgui_draw.cpp
+         nfd_win.cpp
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\luxrender\windows_deps\include /ID:\Cuda\include /ID:\luxrender\windows_deps\include\Boost /ID:\luxrender\windows_deps\include\OpenEXR /ID:\luxrender\windows_deps\include\OpenImageIO /ID:\luxrender\luxrays\include /ID:\luxrender\windows_deps\include\Python3 /I"D:\luxrender\luxrays\samples\luxcoreui\deps\glfw-3.1.1\include" /ID:\luxrender\luxrays\samples\luxcoreui\deps\nfd\include /I"D:\luxrender\luxrays\samples\luxcoreui\deps\imgui-1.46" /Zi /nologo /W0 /WX- /MP /Od /Ob2 /Oi /Ot /Oy /GT /GL /D WIN32 /D _WINDOWS /D NDEBUG /D WIN32_LEAN_AND_MEAN /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D __SSE2__ /D __SSE__ /D __MMX__ /D BOOST_ALL_NO_LIB /D FREEIMAGE_LIB /D FREEGLUT_STATIC /D GLEW_STATIC /D BOOST_FILESYSTEM_NO_DEPRECATED /D BOOST_STATIC_LIB /D BOOST_PYTHON_STATIC_LIB /D "CMAKE_INTDIR=\"Release\"" /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"luxcoreui.dir\Release\\" /Fd"luxcoreui.dir\Release\vc120.pdb" /Gd /TC /wd4244 /wd4756 /wd4267 /wd4056 /wd4305 /wd4800 /errorReport:prompt  /Qfast_transcendentals D:\luxrender\luxrays\samples\luxcoreui\deps\nfd\nfd_common.c
+         nfd_common.c
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\luxrender\windows\Build_CMake\LuxRays\bin\Release\luxcoreui.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:/luxrender/windows_deps/x64/Release/lib /LIBPATH:D:/luxrender/windows_deps/x64/Release/lib/Release kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\lib\Release\glfw3.lib opengl32.lib ..\..\lib\Release\luxcore.lib ..\..\lib\Release\smallluxgpu.lib ..\..\lib\Release\luxrays.lib D:\luxrender\windows_deps\x64\Release\lib\embree.lib glu32.lib opengl32.lib D:\luxrender\windows_deps\x64\Release\lib\libtiff.lib D:\luxrender\windows_deps\x64\Release\lib\Iex.lib D:\luxrender\windows_deps\x64\Release\lib\IlmImf.lib D:\luxrender\windows_deps\x64\Release\lib\Half.lib D:\luxrender\windows_deps\x64\Release\lib\Imath.lib D:\luxrender\windows_deps\x64\Release\lib\IlmThread.lib D:\luxrender\windows_deps\x64\Release\lib\libpng.lib D:\luxrender\windows_deps\x64\Release\lib\zlib1.lib D:\luxrender\windows_deps\x64\Release\lib\jpeg.lib "D:\luxrender\windows_deps\x64\Release\lib\libboost_thread-vc120-mt-1_56.lib" "D:\luxrender\windows_deps\x64\Release\lib\libboost_program_options-vc120-mt-1_56.lib" "D:\luxrender\windows_deps\x64\Release\lib\libboost_filesystem-vc120-mt-1_56.lib" "D:\luxrender\windows_deps\x64\Release\lib\libboost_serialization-vc120-mt-1_56.lib" "D:\luxrender\windows_deps\x64\Release\lib\libboost_iostreams-vc120-mt-1_56.lib" "D:\luxrender\windows_deps\x64\Release\lib\libboost_regex-vc120-mt-1_56.lib" "D:\luxrender\windows_deps\x64\Release\lib\libboost_system-vc120-mt-1_56.lib" "D:\luxrender\windows_deps\x64\Release\lib\libboost_python-vc120-mt-1_56.lib" "D:\luxrender\windows_deps\x64\Release\lib\libboost_chrono-vc120-mt-1_56.lib" D:\luxrender\windows_deps\x64\Release\lib\OpenImageIO.lib D:\Cuda\lib\x64\OpenCL.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/luxrender/windows/Build_CMake/LuxRays/bin/Release/luxcoreui.pdb" /SUBSYSTEM:CONSOLE,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/luxrender/windows/Build_CMake/LuxRays/samples/luxcoreui/Release/luxcoreui.lib" /MACHINE:X64  /machine:x64 luxcoreui.dir\Release\luxcoreui.obj
+         luxcoreui.dir\Release\luxcoreapp.obj
+         luxcoreui.dir\Release\uiloop.obj
+         luxcoreui.dir\Release\uikeys.obj
+         luxcoreui.dir\Release\uimenu.obj
+         luxcoreui.dir\Release\uimouse.obj
+         luxcoreui.dir\Release\helpwindow.obj
+         luxcoreui.dir\Release\logwindow.obj
+         luxcoreui.dir\Release\objectwindow.obj
+         luxcoreui.dir\Release\objecteditorwindow.obj
+         luxcoreui.dir\Release\acceleratorwindow.obj
+         luxcoreui.dir\Release\epsilonwindow.obj
+         luxcoreui.dir\Release\filmchannelswindow.obj
+         luxcoreui.dir\Release\filmoutputswindow.obj
+         luxcoreui.dir\Release\filmradiancegroupswindow.obj
+         luxcoreui.dir\Release\imagewindow.obj
+         luxcoreui.dir\Release\lightstrategywindow.obj
+         luxcoreui.dir\Release\ocldevicewindow.obj
+         luxcoreui.dir\Release\pixelfilterwindow.obj
+         luxcoreui.dir\Release\renderenginewindow.obj
+         luxcoreui.dir\Release\samplerwindow.obj
+         luxcoreui.dir\Release\statswindow.obj
+         luxcoreui.dir\Release\imgui_impl_glfw.obj
+         luxcoreui.dir\Release\luxlogo_bg.obj
+         luxcoreui.dir\Release\imgui.obj
+         luxcoreui.dir\Release\imgui_demo.obj
+         luxcoreui.dir\Release\imgui_draw.obj
+         luxcoreui.dir\Release\nfd_common.obj
+         luxcoreui.dir\Release\nfd_win.obj
+         luxcoreui.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+            Creating library D:/luxrender/windows/Build_CMake/LuxRays/samples/luxcoreui/Release/luxcoreui.lib and object D:/luxrender/windows/Build_CMake/LuxRays/samples/luxcoreui/Release/luxcoreui.exp
+         Generating code
+         Finished generating code
+         luxcoreui.vcxproj -> D:\luxrender\windows\Build_CMake\LuxRays\bin\Release\luxcoreui.exe
+     1>Done Building Project "D:\luxrender\windows\Build_CMake\LuxRays\samples\luxcoreui\luxcoreui.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:08:01.44

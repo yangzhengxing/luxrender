@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\accelerators\bvhaccel.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\accelerators\embreeaccel.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\accelerators\mqbvhaccel.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\accelerators\qbvhaccel.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\accelerators\mbvhaccel.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\core\color\color.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\core\color\spd.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\core\color\spds\blackbodyspd.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\core\color\spds\equalspd.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\core\color\spds\frequencyspd.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\core\color\spds\gaussianspd.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\core\color\spds\irregular.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\core\color\spds\regular.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\core\color\spds\rgbillum.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\core\color\spds\rgbrefl.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\core\color\spectrumwavelengths.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\core\color\swcspectrum.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\core\accelerator.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\core\context.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\core\dataset.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\core\device.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\core\epsilon.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\core\exttrianglemesh.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\core\trianglemesh.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\core\geometry\bbox.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\core\geometry\matrix4x4.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\core\geometry\motionsystem.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\core\geometry\quaternion.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\core\geometry\transform.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\idevices\openclidevice.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\idevices\nativeidevice.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\idevices\virtualidevice.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\utils\mc.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\utils\ocl.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\utils\ply\rply.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\utils\properties.cpp">
+      <Filter>Source Files\LuxRays Library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\luxrays_types_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\bvh_types_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\bvh_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\mbvh_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\qbvh_types_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\qbvh_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\mqbvh_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\randomgen_types_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\randomgen_funcs_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\trianglemesh_types_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\trianglemesh_funcs_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\matrix4x4_types_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\matrix4x4_funcs_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\transform_types_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\transform_funcs_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\frame_types_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\frame_funcs_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\epsilon_types_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\epsilon_funcs_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\ray_types_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\ray_funcs_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\point_types_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\vector_types_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\vector_funcs_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\normal_types_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\quaternion_types_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\quaternion_funcs_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\bbox_types_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\bbox_funcs_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\motionsystem_types_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\motionsystem_funcs_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\triangle_types_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\triangle_funcs_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\color_types_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\color_funcs_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\uv_types_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\mc_funcs_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\src\luxrays\kernels\utils_funcs_kernel.cpp">
+      <Filter>Source Files\LuxRays Kernels</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\luxrays_types.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\accelerators\bvh_types.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\accelerators\bvh.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\accelerators\mbvh.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\accelerators\qbvh_types.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\accelerators\qbvh.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\accelerators\mqbvh.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\randomgen_types.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\randomgen_funcs.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\trianglemesh_types.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\trianglemesh_funcs.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\geometry\matrix4x4_types.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\geometry\matrix4x4_funcs.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\geometry\transform_types.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\geometry\transform_funcs.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\geometry\frame_types.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\geometry\frame_funcs.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\epsilon_types.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\epsilon_funcs.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\geometry\ray_types.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\geometry\ray_funcs.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\geometry\point_types.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\geometry\vector_types.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\geometry\vector_funcs.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\geometry\normal_types.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\geometry\quaternion_types.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\geometry\quaternion_funcs.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\geometry\bbox_types.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\geometry\bbox_funcs.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\geometry\motionsystem_types.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\geometry\motionsystem_funcs.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\geometry\triangle_types.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\geometry\triangle_funcs.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\color\color_types.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\color\color_funcs.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\geometry\uv_types.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\utils\mc_funcs.cl" />
+    <CustomBuild Include="D:\luxrender\luxrays\include\luxrays\core\utils_funcs.cl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files\LuxRays Library">
+      <UniqueIdentifier>{7F059C55-9A3C-4E53-AFB5-2D22EADF88E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LuxRays Kernels">
+      <UniqueIdentifier>{7D6A0B66-0EB0-4F7F-9888-2A90DD11A0A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E2572864-12E0-4EE7-9706-84FFABD4E307}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

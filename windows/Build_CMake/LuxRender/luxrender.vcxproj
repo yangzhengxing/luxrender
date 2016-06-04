@@ -1,0 +1,2479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{197B3E4C-7BC4-49FF-A91C-D61A9FA8AE2E}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>luxrender</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">luxrender.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">luxrender</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">luxrender.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">luxrender</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">luxrender.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">luxrender</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">luxrender.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">luxrender</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;BOOST_ALL_NO_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_FILESYSTEM_VERSION=3;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;LUX_USE_CONFIG_H;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;LUX_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;BOOST_ALL_NO_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_FILESYSTEM_VERSION=3;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;LUX_USE_CONFIG_H;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;LUX_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Debug\lux.lib;D:\luxrender\windows_deps\x64\Release\lib\qtmain.lib;D:\luxrender\windows_deps\x64\Release\lib\QtGui4.lib;imm32.lib;winmm.lib;D:\luxrender\windows_deps\x64\Release\lib\QtCore4.lib;ws2_32.lib;D:\luxrender\windows\Build_CMake\LuxRays\lib\release\luxrays.lib;D:\luxrender\windows\Build_CMake\LuxRays\lib\release\luxcore.lib;D:\luxrender\windows\Build_CMake\LuxRays\lib\release\smallluxgpu.lib;D:\luxrender\windows_deps\x64\Release\lib\embree.lib;D:\Cuda\lib\x64\OpenCL.lib;glu32.lib;opengl32.lib;D:\luxrender\windows_deps\x64\Release\lib\OpenImageIO.lib;D:\luxrender\windows_deps\x64\Release\lib\libtiff.lib;D:\luxrender\windows_deps\x64\Release\lib\jpeg.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_thread-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_program_options-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_filesystem-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_serialization-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_iostreams-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_regex-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_system-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_zlib-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\fftw3.lib;shell32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/luxrender/windows_deps/x64/Release/lib;D:/luxrender/windows_deps/x64/Release/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>D:/luxrender/windows/Build_CMake/LuxRender/Debug/luxrender.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/luxrender/windows/Build_CMake/LuxRender/Debug/luxrender.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /Qfast_transcendentals %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4244;4756;4267;4056;4305;4800</DisableSpecificWarnings>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>true</OmitFramePointers>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_ALL_NO_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_FILESYSTEM_VERSION=3;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;LUX_USE_CONFIG_H;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;LUX_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_ALL_NO_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_FILESYSTEM_VERSION=3;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;LUX_USE_CONFIG_H;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;LUX_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Release\lux.lib;D:\luxrender\windows_deps\x64\Release\lib\qtmain.lib;D:\luxrender\windows_deps\x64\Release\lib\QtGui4.lib;imm32.lib;winmm.lib;D:\luxrender\windows_deps\x64\Release\lib\QtCore4.lib;ws2_32.lib;D:\luxrender\windows\Build_CMake\LuxRays\lib\release\luxrays.lib;D:\luxrender\windows\Build_CMake\LuxRays\lib\release\luxcore.lib;D:\luxrender\windows\Build_CMake\LuxRays\lib\release\smallluxgpu.lib;D:\luxrender\windows_deps\x64\Release\lib\embree.lib;D:\Cuda\lib\x64\OpenCL.lib;glu32.lib;opengl32.lib;D:\luxrender\windows_deps\x64\Release\lib\OpenImageIO.lib;D:\luxrender\windows_deps\x64\Release\lib\libtiff.lib;D:\luxrender\windows_deps\x64\Release\lib\jpeg.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_thread-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_program_options-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_filesystem-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_serialization-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_iostreams-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_regex-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_system-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_zlib-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\fftw3.lib;shell32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/luxrender/windows_deps/x64/Release/lib;D:/luxrender/windows_deps/x64/Release/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>D:/luxrender/windows/Build_CMake/LuxRender/Release/luxrender.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/luxrender/windows/Build_CMake/LuxRender/Release/luxrender.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_ALL_NO_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_FILESYSTEM_VERSION=3;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;LUX_USE_CONFIG_H;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;LUX_DLL;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_ALL_NO_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_FILESYSTEM_VERSION=3;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;LUX_USE_CONFIG_H;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;LUX_DLL;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;MinSizeRel\lux.lib;D:\luxrender\windows_deps\x64\Release\lib\qtmain.lib;D:\luxrender\windows_deps\x64\Release\lib\QtGui4.lib;imm32.lib;winmm.lib;D:\luxrender\windows_deps\x64\Release\lib\QtCore4.lib;ws2_32.lib;D:\luxrender\windows\Build_CMake\LuxRays\lib\release\luxrays.lib;D:\luxrender\windows\Build_CMake\LuxRays\lib\release\luxcore.lib;D:\luxrender\windows\Build_CMake\LuxRays\lib\release\smallluxgpu.lib;D:\luxrender\windows_deps\x64\Release\lib\embree.lib;D:\Cuda\lib\x64\OpenCL.lib;glu32.lib;opengl32.lib;D:\luxrender\windows_deps\x64\Release\lib\OpenImageIO.lib;D:\luxrender\windows_deps\x64\Release\lib\libtiff.lib;D:\luxrender\windows_deps\x64\Release\lib\jpeg.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_thread-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_program_options-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_filesystem-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_serialization-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_iostreams-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_regex-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_system-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_zlib-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\fftw3.lib;shell32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/luxrender/windows_deps/x64/Release/lib;D:/luxrender/windows_deps/x64/Release/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>D:/luxrender/windows/Build_CMake/LuxRender/MinSizeRel/luxrender.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/luxrender/windows/Build_CMake/LuxRender/MinSizeRel/luxrender.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> /Qfast_transcendentals %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4756;4267;4056;4305;4800</DisableSpecificWarnings>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>true</OmitFramePointers>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_ALL_NO_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_FILESYSTEM_VERSION=3;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;LUX_USE_CONFIG_H;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;LUX_DLL;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_ALL_NO_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_FILESYSTEM_VERSION=3;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;LUX_USE_CONFIG_H;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;LUX_DLL;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;RelWithDebInfo\lux.lib;D:\luxrender\windows_deps\x64\Release\lib\qtmain.lib;D:\luxrender\windows_deps\x64\Release\lib\QtGui4.lib;imm32.lib;winmm.lib;D:\luxrender\windows_deps\x64\Release\lib\QtCore4.lib;ws2_32.lib;D:\luxrender\windows\Build_CMake\LuxRays\lib\release\luxrays.lib;D:\luxrender\windows\Build_CMake\LuxRays\lib\release\luxcore.lib;D:\luxrender\windows\Build_CMake\LuxRays\lib\release\smallluxgpu.lib;D:\luxrender\windows_deps\x64\Release\lib\embree.lib;D:\Cuda\lib\x64\OpenCL.lib;glu32.lib;opengl32.lib;D:\luxrender\windows_deps\x64\Release\lib\OpenImageIO.lib;D:\luxrender\windows_deps\x64\Release\lib\libtiff.lib;D:\luxrender\windows_deps\x64\Release\lib\jpeg.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_thread-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_program_options-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_filesystem-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_serialization-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_iostreams-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_regex-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_system-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_zlib-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\fftw3.lib;shell32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/luxrender/windows_deps/x64/Release/lib;D:/luxrender/windows_deps/x64/Release/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>D:/luxrender/windows/Build_CMake/LuxRender/RelWithDebInfo/luxrender.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/luxrender/windows/Build_CMake/LuxRender/RelWithDebInfo/luxrender.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_aboutdialog.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qtgui/moc_aboutdialog.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_aboutdialog.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_aboutdialog.cxx.rule;D:\luxrender\lux\qtgui\aboutdialog.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_aboutdialog.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qtgui/moc_aboutdialog.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_aboutdialog.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_aboutdialog.cxx.rule;D:\luxrender\lux\qtgui\aboutdialog.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_aboutdialog.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qtgui/moc_aboutdialog.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_aboutdialog.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_aboutdialog.cxx.rule;D:\luxrender\lux\qtgui\aboutdialog.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_aboutdialog.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qtgui/moc_aboutdialog.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_aboutdialog.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_aboutdialog.cxx.rule;D:\luxrender\lux\qtgui\aboutdialog.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_aboutdialog.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_advancedinfowidget.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qtgui/moc_advancedinfowidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_advancedinfowidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_advancedinfowidget.cxx.rule;D:\luxrender\lux\qtgui\advancedinfowidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_advancedinfowidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qtgui/moc_advancedinfowidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_advancedinfowidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_advancedinfowidget.cxx.rule;D:\luxrender\lux\qtgui\advancedinfowidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_advancedinfowidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qtgui/moc_advancedinfowidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_advancedinfowidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_advancedinfowidget.cxx.rule;D:\luxrender\lux\qtgui\advancedinfowidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_advancedinfowidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qtgui/moc_advancedinfowidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_advancedinfowidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_advancedinfowidget.cxx.rule;D:\luxrender\lux\qtgui\advancedinfowidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_advancedinfowidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_batchprocessdialog.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qtgui/moc_batchprocessdialog.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_batchprocessdialog.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_batchprocessdialog.cxx.rule;D:\luxrender\lux\qtgui\batchprocessdialog.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_batchprocessdialog.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qtgui/moc_batchprocessdialog.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_batchprocessdialog.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_batchprocessdialog.cxx.rule;D:\luxrender\lux\qtgui\batchprocessdialog.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_batchprocessdialog.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qtgui/moc_batchprocessdialog.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_batchprocessdialog.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_batchprocessdialog.cxx.rule;D:\luxrender\lux\qtgui\batchprocessdialog.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_batchprocessdialog.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qtgui/moc_batchprocessdialog.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_batchprocessdialog.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_batchprocessdialog.cxx.rule;D:\luxrender\lux\qtgui\batchprocessdialog.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_batchprocessdialog.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_colorspacewidget.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qtgui/moc_colorspacewidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_colorspacewidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_colorspacewidget.cxx.rule;D:\luxrender\lux\qtgui\colorspacewidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_colorspacewidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qtgui/moc_colorspacewidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_colorspacewidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_colorspacewidget.cxx.rule;D:\luxrender\lux\qtgui\colorspacewidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_colorspacewidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qtgui/moc_colorspacewidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_colorspacewidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_colorspacewidget.cxx.rule;D:\luxrender\lux\qtgui\colorspacewidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_colorspacewidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qtgui/moc_colorspacewidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_colorspacewidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_colorspacewidget.cxx.rule;D:\luxrender\lux\qtgui\colorspacewidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_colorspacewidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_gammawidget.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qtgui/moc_gammawidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_gammawidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_gammawidget.cxx.rule;D:\luxrender\lux\qtgui\gammawidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_gammawidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qtgui/moc_gammawidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_gammawidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_gammawidget.cxx.rule;D:\luxrender\lux\qtgui\gammawidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_gammawidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qtgui/moc_gammawidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_gammawidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_gammawidget.cxx.rule;D:\luxrender\lux\qtgui\gammawidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_gammawidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qtgui/moc_gammawidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_gammawidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_gammawidget.cxx.rule;D:\luxrender\lux\qtgui\gammawidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_gammawidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_histogramview.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qtgui/moc_histogramview.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_histogramview.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_histogramview.cxx.rule;D:\luxrender\lux\qtgui\histogramview.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_histogramview.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qtgui/moc_histogramview.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_histogramview.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_histogramview.cxx.rule;D:\luxrender\lux\qtgui\histogramview.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_histogramview.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qtgui/moc_histogramview.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_histogramview.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_histogramview.cxx.rule;D:\luxrender\lux\qtgui\histogramview.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_histogramview.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qtgui/moc_histogramview.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_histogramview.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_histogramview.cxx.rule;D:\luxrender\lux\qtgui\histogramview.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_histogramview.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_histogramwidget.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qtgui/moc_histogramwidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_histogramwidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_histogramwidget.cxx.rule;D:\luxrender\lux\qtgui\histogramwidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_histogramwidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qtgui/moc_histogramwidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_histogramwidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_histogramwidget.cxx.rule;D:\luxrender\lux\qtgui\histogramwidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_histogramwidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qtgui/moc_histogramwidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_histogramwidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_histogramwidget.cxx.rule;D:\luxrender\lux\qtgui\histogramwidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_histogramwidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qtgui/moc_histogramwidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_histogramwidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_histogramwidget.cxx.rule;D:\luxrender\lux\qtgui\histogramwidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_histogramwidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_lenseffectswidget.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qtgui/moc_lenseffectswidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_lenseffectswidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_lenseffectswidget.cxx.rule;D:\luxrender\lux\qtgui\lenseffectswidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_lenseffectswidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qtgui/moc_lenseffectswidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_lenseffectswidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_lenseffectswidget.cxx.rule;D:\luxrender\lux\qtgui\lenseffectswidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_lenseffectswidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qtgui/moc_lenseffectswidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_lenseffectswidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_lenseffectswidget.cxx.rule;D:\luxrender\lux\qtgui\lenseffectswidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_lenseffectswidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qtgui/moc_lenseffectswidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_lenseffectswidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_lenseffectswidget.cxx.rule;D:\luxrender\lux\qtgui\lenseffectswidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_lenseffectswidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_lightgroupwidget.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qtgui/moc_lightgroupwidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_lightgroupwidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_lightgroupwidget.cxx.rule;D:\luxrender\lux\qtgui\lightgroupwidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_lightgroupwidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qtgui/moc_lightgroupwidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_lightgroupwidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_lightgroupwidget.cxx.rule;D:\luxrender\lux\qtgui\lightgroupwidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_lightgroupwidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qtgui/moc_lightgroupwidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_lightgroupwidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_lightgroupwidget.cxx.rule;D:\luxrender\lux\qtgui\lightgroupwidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_lightgroupwidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qtgui/moc_lightgroupwidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_lightgroupwidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_lightgroupwidget.cxx.rule;D:\luxrender\lux\qtgui\lightgroupwidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_lightgroupwidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_luxapp.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qtgui/moc_luxapp.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_luxapp.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_luxapp.cxx.rule;D:\luxrender\lux\qtgui\luxapp.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_luxapp.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qtgui/moc_luxapp.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_luxapp.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_luxapp.cxx.rule;D:\luxrender\lux\qtgui\luxapp.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_luxapp.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qtgui/moc_luxapp.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_luxapp.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_luxapp.cxx.rule;D:\luxrender\lux\qtgui\luxapp.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_luxapp.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qtgui/moc_luxapp.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_luxapp.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_luxapp.cxx.rule;D:\luxrender\lux\qtgui\luxapp.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_luxapp.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_mainwindow.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qtgui/moc_mainwindow.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_mainwindow.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_mainwindow.cxx.rule;D:\luxrender\lux\qtgui\mainwindow.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_mainwindow.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qtgui/moc_mainwindow.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_mainwindow.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_mainwindow.cxx.rule;D:\luxrender\lux\qtgui\mainwindow.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_mainwindow.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qtgui/moc_mainwindow.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_mainwindow.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_mainwindow.cxx.rule;D:\luxrender\lux\qtgui\mainwindow.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_mainwindow.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qtgui/moc_mainwindow.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_mainwindow.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_mainwindow.cxx.rule;D:\luxrender\lux\qtgui\mainwindow.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_mainwindow.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_noisereductionwidget.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qtgui/moc_noisereductionwidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_noisereductionwidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_noisereductionwidget.cxx.rule;D:\luxrender\lux\qtgui\noisereductionwidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_noisereductionwidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qtgui/moc_noisereductionwidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_noisereductionwidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_noisereductionwidget.cxx.rule;D:\luxrender\lux\qtgui\noisereductionwidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_noisereductionwidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qtgui/moc_noisereductionwidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_noisereductionwidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_noisereductionwidget.cxx.rule;D:\luxrender\lux\qtgui\noisereductionwidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_noisereductionwidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qtgui/moc_noisereductionwidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_noisereductionwidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_noisereductionwidget.cxx.rule;D:\luxrender\lux\qtgui\noisereductionwidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_noisereductionwidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_openexroptionsdialog.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qtgui/moc_openexroptionsdialog.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_openexroptionsdialog.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_openexroptionsdialog.cxx.rule;D:\luxrender\lux\qtgui\openexroptionsdialog.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_openexroptionsdialog.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qtgui/moc_openexroptionsdialog.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_openexroptionsdialog.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_openexroptionsdialog.cxx.rule;D:\luxrender\lux\qtgui\openexroptionsdialog.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_openexroptionsdialog.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qtgui/moc_openexroptionsdialog.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_openexroptionsdialog.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_openexroptionsdialog.cxx.rule;D:\luxrender\lux\qtgui\openexroptionsdialog.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_openexroptionsdialog.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qtgui/moc_openexroptionsdialog.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_openexroptionsdialog.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_openexroptionsdialog.cxx.rule;D:\luxrender\lux\qtgui\openexroptionsdialog.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_openexroptionsdialog.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_panewidget.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qtgui/moc_panewidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_panewidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_panewidget.cxx.rule;D:\luxrender\lux\qtgui\panewidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_panewidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qtgui/moc_panewidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_panewidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_panewidget.cxx.rule;D:\luxrender\lux\qtgui\panewidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_panewidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qtgui/moc_panewidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_panewidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_panewidget.cxx.rule;D:\luxrender\lux\qtgui\panewidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_panewidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qtgui/moc_panewidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_panewidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_panewidget.cxx.rule;D:\luxrender\lux\qtgui\panewidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_panewidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_queue.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qtgui/moc_queue.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_queue.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_queue.cxx.rule;D:\luxrender\lux\qtgui\queue.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_queue.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qtgui/moc_queue.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_queue.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_queue.cxx.rule;D:\luxrender\lux\qtgui\queue.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_queue.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qtgui/moc_queue.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_queue.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_queue.cxx.rule;D:\luxrender\lux\qtgui\queue.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_queue.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qtgui/moc_queue.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_queue.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_queue.cxx.rule;D:\luxrender\lux\qtgui\queue.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_queue.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_renderview.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qtgui/moc_renderview.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_renderview.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_renderview.cxx.rule;D:\luxrender\lux\qtgui\renderview.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_renderview.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qtgui/moc_renderview.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_renderview.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_renderview.cxx.rule;D:\luxrender\lux\qtgui\renderview.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_renderview.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qtgui/moc_renderview.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_renderview.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_renderview.cxx.rule;D:\luxrender\lux\qtgui\renderview.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_renderview.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qtgui/moc_renderview.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_renderview.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_renderview.cxx.rule;D:\luxrender\lux\qtgui\renderview.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_renderview.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\7fcbf51f1e5d8d24119432bb1cd51dec\moc_tonemapwidget.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qtgui/moc_tonemapwidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_tonemapwidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_tonemapwidget.cxx.rule;D:\luxrender\lux\qtgui\tonemapwidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_tonemapwidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qtgui/moc_tonemapwidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_tonemapwidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_tonemapwidget.cxx.rule;D:\luxrender\lux\qtgui\tonemapwidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_tonemapwidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qtgui/moc_tonemapwidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_tonemapwidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_tonemapwidget.cxx.rule;D:\luxrender\lux\qtgui\tonemapwidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_tonemapwidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qtgui/moc_tonemapwidget.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\luxrender\windows\Build_CMake\LuxRender\qtgui
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\luxrender\windows_deps\x64\Release\lib\moc.exe @D:/luxrender/windows/Build_CMake/LuxRender/qtgui/moc_tonemapwidget.cxx_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/windows/Build_CMake/LuxRender/CMakeFiles/7fcbf51f1e5d8d24119432bb1cd51dec/moc_tonemapwidget.cxx.rule;D:\luxrender\lux\qtgui\tonemapwidget.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qtgui\moc_tonemapwidget.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\icons.qrc">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qrc_icons.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\rcc.exe -name icons -o D:/luxrender/windows/Build_CMake/LuxRender/qrc_icons.cxx D:/luxrender/lux/qtgui/icons.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/lux/qtgui/icons.qrc;D:\luxrender\lux\qtgui\icons\mappainticon.png;D:\luxrender\lux\qtgui\icons\queuetabicon.png;D:\luxrender\lux\qtgui\icons\advancedicon.png;D:\luxrender\lux\qtgui\icons\clipboardicon_alpha.png;D:\luxrender\lux\qtgui\icons\resolutionicon.png;D:\luxrender\lux\qtgui\icons\collapsedicon.png;D:\luxrender\lux\qtgui\icons\powerofficon.png;D:\luxrender\lux\qtgui\icons\expandedicon.png;D:\luxrender\lux\qtgui\icons\poweronicon.png;D:\luxrender\lux\qtgui\icons\luxrender.png;D:\luxrender\lux\qtgui\icons\clipboardicon.png;D:\luxrender\lux\qtgui\icons\colorspaceicon.png;D:\luxrender\lux\qtgui\icons\colouredv2cbisfx4.png;D:\luxrender\lux\qtgui\icons\gammaicon.png;D:\luxrender\lux\qtgui\icons\histogramicon.png;D:\luxrender\lux\qtgui\icons\lenseffectsicon.png;D:\luxrender\lux\qtgui\icons\lightgroupsicon.png;D:\luxrender\lux\qtgui\icons\logtabicon.png;D:\luxrender\lux\qtgui\icons\minusicon.png;D:\luxrender\lux\qtgui\icons\erroricon.png;D:\luxrender\lux\qtgui\icons\warningicon.png;D:\luxrender\lux\qtgui\icons\networktabicon.png;D:\luxrender\lux\qtgui\icons\noisereductionicon.png;D:\luxrender\lux\qtgui\icons\pauseicon.png;D:\luxrender\lux\qtgui\icons\plusicon.png;D:\luxrender\lux\qtgui\icons\rendertabicon.png;D:\luxrender\lux\qtgui\icons\resumeicon.png;D:\luxrender\lux\qtgui\icons\stopicon.png;D:\luxrender\lux\qtgui\icons\tonemapicon.png;D:\luxrender\lux\qtgui\icons\zoomicon.png;D:\luxrender\lux\qtgui\icons\analogclockicon.png;D:\luxrender\lux\qtgui\icons\arrowicon.png;D:\luxrender\lux\qtgui\icons\imageicon.png;D:\luxrender\lux\qtgui\icons\viewicon.png;D:\luxrender\windows\Build_CMake\LuxRender\qtgui\icons.qrc.depends;D:\luxrender\lux\qtgui\icons.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qrc_icons.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qrc_icons.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\rcc.exe -name icons -o D:/luxrender/windows/Build_CMake/LuxRender/qrc_icons.cxx D:/luxrender/lux/qtgui/icons.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/lux/qtgui/icons.qrc;D:\luxrender\lux\qtgui\icons\mappainticon.png;D:\luxrender\lux\qtgui\icons\queuetabicon.png;D:\luxrender\lux\qtgui\icons\advancedicon.png;D:\luxrender\lux\qtgui\icons\clipboardicon_alpha.png;D:\luxrender\lux\qtgui\icons\resolutionicon.png;D:\luxrender\lux\qtgui\icons\collapsedicon.png;D:\luxrender\lux\qtgui\icons\powerofficon.png;D:\luxrender\lux\qtgui\icons\expandedicon.png;D:\luxrender\lux\qtgui\icons\poweronicon.png;D:\luxrender\lux\qtgui\icons\luxrender.png;D:\luxrender\lux\qtgui\icons\clipboardicon.png;D:\luxrender\lux\qtgui\icons\colorspaceicon.png;D:\luxrender\lux\qtgui\icons\colouredv2cbisfx4.png;D:\luxrender\lux\qtgui\icons\gammaicon.png;D:\luxrender\lux\qtgui\icons\histogramicon.png;D:\luxrender\lux\qtgui\icons\lenseffectsicon.png;D:\luxrender\lux\qtgui\icons\lightgroupsicon.png;D:\luxrender\lux\qtgui\icons\logtabicon.png;D:\luxrender\lux\qtgui\icons\minusicon.png;D:\luxrender\lux\qtgui\icons\erroricon.png;D:\luxrender\lux\qtgui\icons\warningicon.png;D:\luxrender\lux\qtgui\icons\networktabicon.png;D:\luxrender\lux\qtgui\icons\noisereductionicon.png;D:\luxrender\lux\qtgui\icons\pauseicon.png;D:\luxrender\lux\qtgui\icons\plusicon.png;D:\luxrender\lux\qtgui\icons\rendertabicon.png;D:\luxrender\lux\qtgui\icons\resumeicon.png;D:\luxrender\lux\qtgui\icons\stopicon.png;D:\luxrender\lux\qtgui\icons\tonemapicon.png;D:\luxrender\lux\qtgui\icons\zoomicon.png;D:\luxrender\lux\qtgui\icons\analogclockicon.png;D:\luxrender\lux\qtgui\icons\arrowicon.png;D:\luxrender\lux\qtgui\icons\imageicon.png;D:\luxrender\lux\qtgui\icons\viewicon.png;D:\luxrender\windows\Build_CMake\LuxRender\qtgui\icons.qrc.depends;D:\luxrender\lux\qtgui\icons.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qrc_icons.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qrc_icons.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\rcc.exe -name icons -o D:/luxrender/windows/Build_CMake/LuxRender/qrc_icons.cxx D:/luxrender/lux/qtgui/icons.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/lux/qtgui/icons.qrc;D:\luxrender\lux\qtgui\icons\mappainticon.png;D:\luxrender\lux\qtgui\icons\queuetabicon.png;D:\luxrender\lux\qtgui\icons\advancedicon.png;D:\luxrender\lux\qtgui\icons\clipboardicon_alpha.png;D:\luxrender\lux\qtgui\icons\resolutionicon.png;D:\luxrender\lux\qtgui\icons\collapsedicon.png;D:\luxrender\lux\qtgui\icons\powerofficon.png;D:\luxrender\lux\qtgui\icons\expandedicon.png;D:\luxrender\lux\qtgui\icons\poweronicon.png;D:\luxrender\lux\qtgui\icons\luxrender.png;D:\luxrender\lux\qtgui\icons\clipboardicon.png;D:\luxrender\lux\qtgui\icons\colorspaceicon.png;D:\luxrender\lux\qtgui\icons\colouredv2cbisfx4.png;D:\luxrender\lux\qtgui\icons\gammaicon.png;D:\luxrender\lux\qtgui\icons\histogramicon.png;D:\luxrender\lux\qtgui\icons\lenseffectsicon.png;D:\luxrender\lux\qtgui\icons\lightgroupsicon.png;D:\luxrender\lux\qtgui\icons\logtabicon.png;D:\luxrender\lux\qtgui\icons\minusicon.png;D:\luxrender\lux\qtgui\icons\erroricon.png;D:\luxrender\lux\qtgui\icons\warningicon.png;D:\luxrender\lux\qtgui\icons\networktabicon.png;D:\luxrender\lux\qtgui\icons\noisereductionicon.png;D:\luxrender\lux\qtgui\icons\pauseicon.png;D:\luxrender\lux\qtgui\icons\plusicon.png;D:\luxrender\lux\qtgui\icons\rendertabicon.png;D:\luxrender\lux\qtgui\icons\resumeicon.png;D:\luxrender\lux\qtgui\icons\stopicon.png;D:\luxrender\lux\qtgui\icons\tonemapicon.png;D:\luxrender\lux\qtgui\icons\zoomicon.png;D:\luxrender\lux\qtgui\icons\analogclockicon.png;D:\luxrender\lux\qtgui\icons\arrowicon.png;D:\luxrender\lux\qtgui\icons\imageicon.png;D:\luxrender\lux\qtgui\icons\viewicon.png;D:\luxrender\windows\Build_CMake\LuxRender\qtgui\icons.qrc.depends;D:\luxrender\lux\qtgui\icons.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qrc_icons.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qrc_icons.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\rcc.exe -name icons -o D:/luxrender/windows/Build_CMake/LuxRender/qrc_icons.cxx D:/luxrender/lux/qtgui/icons.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/lux/qtgui/icons.qrc;D:\luxrender\lux\qtgui\icons\mappainticon.png;D:\luxrender\lux\qtgui\icons\queuetabicon.png;D:\luxrender\lux\qtgui\icons\advancedicon.png;D:\luxrender\lux\qtgui\icons\clipboardicon_alpha.png;D:\luxrender\lux\qtgui\icons\resolutionicon.png;D:\luxrender\lux\qtgui\icons\collapsedicon.png;D:\luxrender\lux\qtgui\icons\powerofficon.png;D:\luxrender\lux\qtgui\icons\expandedicon.png;D:\luxrender\lux\qtgui\icons\poweronicon.png;D:\luxrender\lux\qtgui\icons\luxrender.png;D:\luxrender\lux\qtgui\icons\clipboardicon.png;D:\luxrender\lux\qtgui\icons\colorspaceicon.png;D:\luxrender\lux\qtgui\icons\colouredv2cbisfx4.png;D:\luxrender\lux\qtgui\icons\gammaicon.png;D:\luxrender\lux\qtgui\icons\histogramicon.png;D:\luxrender\lux\qtgui\icons\lenseffectsicon.png;D:\luxrender\lux\qtgui\icons\lightgroupsicon.png;D:\luxrender\lux\qtgui\icons\logtabicon.png;D:\luxrender\lux\qtgui\icons\minusicon.png;D:\luxrender\lux\qtgui\icons\erroricon.png;D:\luxrender\lux\qtgui\icons\warningicon.png;D:\luxrender\lux\qtgui\icons\networktabicon.png;D:\luxrender\lux\qtgui\icons\noisereductionicon.png;D:\luxrender\lux\qtgui\icons\pauseicon.png;D:\luxrender\lux\qtgui\icons\plusicon.png;D:\luxrender\lux\qtgui\icons\rendertabicon.png;D:\luxrender\lux\qtgui\icons\resumeicon.png;D:\luxrender\lux\qtgui\icons\stopicon.png;D:\luxrender\lux\qtgui\icons\tonemapicon.png;D:\luxrender\lux\qtgui\icons\zoomicon.png;D:\luxrender\lux\qtgui\icons\analogclockicon.png;D:\luxrender\lux\qtgui\icons\arrowicon.png;D:\luxrender\lux\qtgui\icons\imageicon.png;D:\luxrender\lux\qtgui\icons\viewicon.png;D:\luxrender\windows\Build_CMake\LuxRender\qtgui\icons.qrc.depends;D:\luxrender\lux\qtgui\icons.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qrc_icons.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\splash.qrc">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qrc_splash.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\rcc.exe -name splash -o D:/luxrender/windows/Build_CMake/LuxRender/qrc_splash.cxx D:/luxrender/lux/qtgui/splash.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/lux/qtgui/splash.qrc;D:\luxrender\lux\qtgui\images\splash.png;D:\luxrender\windows\Build_CMake\LuxRender\qtgui\splash.qrc.depends;D:\luxrender\lux\qtgui\splash.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qrc_splash.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qrc_splash.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\rcc.exe -name splash -o D:/luxrender/windows/Build_CMake/LuxRender/qrc_splash.cxx D:/luxrender/lux/qtgui/splash.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/lux/qtgui/splash.qrc;D:\luxrender\lux\qtgui\images\splash.png;D:\luxrender\windows\Build_CMake\LuxRender\qtgui\splash.qrc.depends;D:\luxrender\lux\qtgui\splash.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qrc_splash.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qrc_splash.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\rcc.exe -name splash -o D:/luxrender/windows/Build_CMake/LuxRender/qrc_splash.cxx D:/luxrender/lux/qtgui/splash.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/lux/qtgui/splash.qrc;D:\luxrender\lux\qtgui\images\splash.png;D:\luxrender\windows\Build_CMake\LuxRender\qtgui\splash.qrc.depends;D:\luxrender\lux\qtgui\splash.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qrc_splash.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qrc_splash.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\rcc.exe -name splash -o D:/luxrender/windows/Build_CMake/LuxRender/qrc_splash.cxx D:/luxrender/lux/qtgui/splash.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/lux/qtgui/splash.qrc;D:\luxrender\lux\qtgui\images\splash.png;D:\luxrender\windows\Build_CMake\LuxRender\qtgui\splash.qrc.depends;D:\luxrender\lux\qtgui\splash.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qrc_splash.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\images.qrc">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qrc_images.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\rcc.exe -name images -o D:/luxrender/windows/Build_CMake/LuxRender/qrc_images.cxx D:/luxrender/lux/qtgui/images.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/lux/qtgui/images.qrc;D:\luxrender\lux\qtgui\images\checkerboard.png;D:\luxrender\lux\qtgui\images\luxlogo_bg.png;D:\luxrender\lux\qtgui\images\colortemp.png;D:\luxrender\windows\Build_CMake\LuxRender\qtgui\images.qrc.depends;D:\luxrender\lux\qtgui\images.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qrc_images.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qrc_images.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\rcc.exe -name images -o D:/luxrender/windows/Build_CMake/LuxRender/qrc_images.cxx D:/luxrender/lux/qtgui/images.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/lux/qtgui/images.qrc;D:\luxrender\lux\qtgui\images\checkerboard.png;D:\luxrender\lux\qtgui\images\luxlogo_bg.png;D:\luxrender\lux\qtgui\images\colortemp.png;D:\luxrender\windows\Build_CMake\LuxRender\qtgui\images.qrc.depends;D:\luxrender\lux\qtgui\images.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qrc_images.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qrc_images.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\rcc.exe -name images -o D:/luxrender/windows/Build_CMake/LuxRender/qrc_images.cxx D:/luxrender/lux/qtgui/images.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/lux/qtgui/images.qrc;D:\luxrender\lux\qtgui\images\checkerboard.png;D:\luxrender\lux\qtgui\images\luxlogo_bg.png;D:\luxrender\lux\qtgui\images\colortemp.png;D:\luxrender\windows\Build_CMake\LuxRender\qtgui\images.qrc.depends;D:\luxrender\lux\qtgui\images.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qrc_images.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qrc_images.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\rcc.exe -name images -o D:/luxrender/windows/Build_CMake/LuxRender/qrc_images.cxx D:/luxrender/lux/qtgui/images.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/lux/qtgui/images.qrc;D:\luxrender\lux\qtgui\images\checkerboard.png;D:\luxrender\lux\qtgui\images\luxlogo_bg.png;D:\luxrender\lux\qtgui\images\colortemp.png;D:\luxrender\windows\Build_CMake\LuxRender\qtgui\images.qrc.depends;D:\luxrender\lux\qtgui\images.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\qrc_images.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\aboutdialog.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_aboutdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_aboutdialog.h D:/luxrender/lux/qtgui/aboutdialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/lux/qtgui/aboutdialog.ui;D:\luxrender\lux\qtgui\aboutdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_aboutdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_aboutdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_aboutdialog.h D:/luxrender/lux/qtgui/aboutdialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/lux/qtgui/aboutdialog.ui;D:\luxrender\lux\qtgui\aboutdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_aboutdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_aboutdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_aboutdialog.h D:/luxrender/lux/qtgui/aboutdialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/lux/qtgui/aboutdialog.ui;D:\luxrender\lux\qtgui\aboutdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_aboutdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_aboutdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_aboutdialog.h D:/luxrender/lux/qtgui/aboutdialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/lux/qtgui/aboutdialog.ui;D:\luxrender\lux\qtgui\aboutdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_aboutdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\advancedinfo.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_advancedinfo.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_advancedinfo.h D:/luxrender/lux/qtgui/advancedinfo.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/lux/qtgui/advancedinfo.ui;D:\luxrender\lux\qtgui\advancedinfo.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_advancedinfo.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_advancedinfo.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_advancedinfo.h D:/luxrender/lux/qtgui/advancedinfo.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/lux/qtgui/advancedinfo.ui;D:\luxrender\lux\qtgui\advancedinfo.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_advancedinfo.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_advancedinfo.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_advancedinfo.h D:/luxrender/lux/qtgui/advancedinfo.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/lux/qtgui/advancedinfo.ui;D:\luxrender\lux\qtgui\advancedinfo.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_advancedinfo.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_advancedinfo.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_advancedinfo.h D:/luxrender/lux/qtgui/advancedinfo.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/lux/qtgui/advancedinfo.ui;D:\luxrender\lux\qtgui\advancedinfo.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_advancedinfo.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\batchprocessdialog.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_batchprocessdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_batchprocessdialog.h D:/luxrender/lux/qtgui/batchprocessdialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/lux/qtgui/batchprocessdialog.ui;D:\luxrender\lux\qtgui\batchprocessdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_batchprocessdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_batchprocessdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_batchprocessdialog.h D:/luxrender/lux/qtgui/batchprocessdialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/lux/qtgui/batchprocessdialog.ui;D:\luxrender\lux\qtgui\batchprocessdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_batchprocessdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_batchprocessdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_batchprocessdialog.h D:/luxrender/lux/qtgui/batchprocessdialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/lux/qtgui/batchprocessdialog.ui;D:\luxrender\lux\qtgui\batchprocessdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_batchprocessdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_batchprocessdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_batchprocessdialog.h D:/luxrender/lux/qtgui/batchprocessdialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/lux/qtgui/batchprocessdialog.ui;D:\luxrender\lux\qtgui\batchprocessdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_batchprocessdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\colorspace.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_colorspace.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_colorspace.h D:/luxrender/lux/qtgui/colorspace.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/lux/qtgui/colorspace.ui;D:\luxrender\lux\qtgui\colorspace.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_colorspace.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_colorspace.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_colorspace.h D:/luxrender/lux/qtgui/colorspace.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/lux/qtgui/colorspace.ui;D:\luxrender\lux\qtgui\colorspace.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_colorspace.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_colorspace.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_colorspace.h D:/luxrender/lux/qtgui/colorspace.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/lux/qtgui/colorspace.ui;D:\luxrender\lux\qtgui\colorspace.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_colorspace.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_colorspace.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_colorspace.h D:/luxrender/lux/qtgui/colorspace.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/lux/qtgui/colorspace.ui;D:\luxrender\lux\qtgui\colorspace.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_colorspace.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\gamma.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_gamma.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_gamma.h D:/luxrender/lux/qtgui/gamma.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/lux/qtgui/gamma.ui;D:\luxrender\lux\qtgui\gamma.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_gamma.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_gamma.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_gamma.h D:/luxrender/lux/qtgui/gamma.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/lux/qtgui/gamma.ui;D:\luxrender\lux\qtgui\gamma.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_gamma.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_gamma.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_gamma.h D:/luxrender/lux/qtgui/gamma.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/lux/qtgui/gamma.ui;D:\luxrender\lux\qtgui\gamma.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_gamma.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_gamma.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_gamma.h D:/luxrender/lux/qtgui/gamma.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/lux/qtgui/gamma.ui;D:\luxrender\lux\qtgui\gamma.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_gamma.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\histogram.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_histogram.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_histogram.h D:/luxrender/lux/qtgui/histogram.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/lux/qtgui/histogram.ui;D:\luxrender\lux\qtgui\histogram.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_histogram.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_histogram.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_histogram.h D:/luxrender/lux/qtgui/histogram.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/lux/qtgui/histogram.ui;D:\luxrender\lux\qtgui\histogram.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_histogram.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_histogram.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_histogram.h D:/luxrender/lux/qtgui/histogram.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/lux/qtgui/histogram.ui;D:\luxrender\lux\qtgui\histogram.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_histogram.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_histogram.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_histogram.h D:/luxrender/lux/qtgui/histogram.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/lux/qtgui/histogram.ui;D:\luxrender\lux\qtgui\histogram.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_histogram.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\lenseffects.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_lenseffects.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_lenseffects.h D:/luxrender/lux/qtgui/lenseffects.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/lux/qtgui/lenseffects.ui;D:\luxrender\lux\qtgui\lenseffects.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_lenseffects.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_lenseffects.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_lenseffects.h D:/luxrender/lux/qtgui/lenseffects.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/lux/qtgui/lenseffects.ui;D:\luxrender\lux\qtgui\lenseffects.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_lenseffects.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_lenseffects.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_lenseffects.h D:/luxrender/lux/qtgui/lenseffects.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/lux/qtgui/lenseffects.ui;D:\luxrender\lux\qtgui\lenseffects.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_lenseffects.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_lenseffects.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_lenseffects.h D:/luxrender/lux/qtgui/lenseffects.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/lux/qtgui/lenseffects.ui;D:\luxrender\lux\qtgui\lenseffects.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_lenseffects.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\lightgroup.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_lightgroup.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_lightgroup.h D:/luxrender/lux/qtgui/lightgroup.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/lux/qtgui/lightgroup.ui;D:\luxrender\lux\qtgui\lightgroup.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_lightgroup.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_lightgroup.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_lightgroup.h D:/luxrender/lux/qtgui/lightgroup.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/lux/qtgui/lightgroup.ui;D:\luxrender\lux\qtgui\lightgroup.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_lightgroup.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_lightgroup.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_lightgroup.h D:/luxrender/lux/qtgui/lightgroup.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/lux/qtgui/lightgroup.ui;D:\luxrender\lux\qtgui\lightgroup.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_lightgroup.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_lightgroup.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_lightgroup.h D:/luxrender/lux/qtgui/lightgroup.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/lux/qtgui/lightgroup.ui;D:\luxrender\lux\qtgui\lightgroup.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_lightgroup.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\luxrender.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_luxrender.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_luxrender.h D:/luxrender/lux/qtgui/luxrender.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/lux/qtgui/luxrender.ui;D:\luxrender\lux\qtgui\luxrender.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_luxrender.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_luxrender.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_luxrender.h D:/luxrender/lux/qtgui/luxrender.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/lux/qtgui/luxrender.ui;D:\luxrender\lux\qtgui\luxrender.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_luxrender.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_luxrender.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_luxrender.h D:/luxrender/lux/qtgui/luxrender.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/lux/qtgui/luxrender.ui;D:\luxrender\lux\qtgui\luxrender.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_luxrender.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_luxrender.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_luxrender.h D:/luxrender/lux/qtgui/luxrender.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/lux/qtgui/luxrender.ui;D:\luxrender\lux\qtgui\luxrender.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_luxrender.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\noisereduction.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_noisereduction.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_noisereduction.h D:/luxrender/lux/qtgui/noisereduction.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/lux/qtgui/noisereduction.ui;D:\luxrender\lux\qtgui\noisereduction.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_noisereduction.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_noisereduction.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_noisereduction.h D:/luxrender/lux/qtgui/noisereduction.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/lux/qtgui/noisereduction.ui;D:\luxrender\lux\qtgui\noisereduction.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_noisereduction.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_noisereduction.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_noisereduction.h D:/luxrender/lux/qtgui/noisereduction.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/lux/qtgui/noisereduction.ui;D:\luxrender\lux\qtgui\noisereduction.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_noisereduction.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_noisereduction.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_noisereduction.h D:/luxrender/lux/qtgui/noisereduction.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/lux/qtgui/noisereduction.ui;D:\luxrender\lux\qtgui\noisereduction.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_noisereduction.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\openexroptionsdialog.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_openexroptionsdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_openexroptionsdialog.h D:/luxrender/lux/qtgui/openexroptionsdialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/lux/qtgui/openexroptionsdialog.ui;D:\luxrender\lux\qtgui\openexroptionsdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_openexroptionsdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_openexroptionsdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_openexroptionsdialog.h D:/luxrender/lux/qtgui/openexroptionsdialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/lux/qtgui/openexroptionsdialog.ui;D:\luxrender\lux\qtgui\openexroptionsdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_openexroptionsdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_openexroptionsdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_openexroptionsdialog.h D:/luxrender/lux/qtgui/openexroptionsdialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/lux/qtgui/openexroptionsdialog.ui;D:\luxrender\lux\qtgui\openexroptionsdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_openexroptionsdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_openexroptionsdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_openexroptionsdialog.h D:/luxrender/lux/qtgui/openexroptionsdialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/lux/qtgui/openexroptionsdialog.ui;D:\luxrender\lux\qtgui\openexroptionsdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_openexroptionsdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\pane.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_pane.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_pane.h D:/luxrender/lux/qtgui/pane.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/lux/qtgui/pane.ui;D:\luxrender\lux\qtgui\pane.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_pane.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_pane.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_pane.h D:/luxrender/lux/qtgui/pane.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/lux/qtgui/pane.ui;D:\luxrender\lux\qtgui\pane.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_pane.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_pane.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_pane.h D:/luxrender/lux/qtgui/pane.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/lux/qtgui/pane.ui;D:\luxrender\lux\qtgui\pane.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_pane.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_pane.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_pane.h D:/luxrender/lux/qtgui/pane.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/lux/qtgui/pane.ui;D:\luxrender\lux\qtgui\pane.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_pane.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\luxrender\lux\qtgui\tonemap.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_tonemap.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_tonemap.h D:/luxrender/lux/qtgui/tonemap.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/luxrender/lux/qtgui/tonemap.ui;D:\luxrender\lux\qtgui\tonemap.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_tonemap.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_tonemap.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_tonemap.h D:/luxrender/lux/qtgui/tonemap.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/luxrender/lux/qtgui/tonemap.ui;D:\luxrender\lux\qtgui\tonemap.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_tonemap.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_tonemap.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_tonemap.h D:/luxrender/lux/qtgui/tonemap.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/luxrender/lux/qtgui/tonemap.ui;D:\luxrender\lux\qtgui\tonemap.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_tonemap.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_tonemap.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\luxrender\windows_deps\x64\Release\lib\uic.exe -o D:/luxrender/windows/Build_CMake/LuxRender/ui_tonemap.h D:/luxrender/lux/qtgui/tonemap.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/luxrender/lux/qtgui/tonemap.ui;D:\luxrender\lux\qtgui\tonemap.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\ui_tonemap.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ui_aboutdialog.h" />
+    <ClInclude Include="ui_advancedinfo.h" />
+    <ClInclude Include="ui_batchprocessdialog.h" />
+    <ClInclude Include="ui_colorspace.h" />
+    <ClInclude Include="ui_gamma.h" />
+    <ClInclude Include="ui_histogram.h" />
+    <ClInclude Include="ui_lenseffects.h" />
+    <ClInclude Include="ui_lightgroup.h" />
+    <ClInclude Include="ui_luxrender.h" />
+    <ClInclude Include="ui_noisereduction.h" />
+    <ClInclude Include="ui_openexroptionsdialog.h" />
+    <ClInclude Include="ui_pane.h" />
+    <ClInclude Include="ui_tonemap.h" />
+    <ClCompile Include="D:\luxrender\lux\qtgui\aboutdialog.cpp" />
+    <ClCompile Include="D:\luxrender\lux\qtgui\advancedinfowidget.cpp" />
+    <ClCompile Include="D:\luxrender\lux\qtgui\batchprocessdialog.cpp" />
+    <ClCompile Include="D:\luxrender\lux\qtgui\colorspacewidget.cpp" />
+    <ClCompile Include="D:\luxrender\lux\qtgui\gammawidget.cpp" />
+    <ClCompile Include="D:\luxrender\lux\qtgui\guiutil.cpp" />
+    <ClCompile Include="D:\luxrender\lux\qtgui\histogramview.cpp" />
+    <ClCompile Include="D:\luxrender\lux\qtgui\histogramwidget.cpp" />
+    <ClCompile Include="D:\luxrender\lux\qtgui\lenseffectswidget.cpp" />
+    <ClCompile Include="D:\luxrender\lux\qtgui\lightgroupwidget.cpp" />
+    <ClCompile Include="D:\luxrender\lux\qtgui\luxapp.cpp" />
+    <ClCompile Include="D:\luxrender\lux\qtgui\main.cpp" />
+    <ClCompile Include="D:\luxrender\lux\qtgui\mainwindow.cpp" />
+    <ClCompile Include="D:\luxrender\lux\qtgui\noisereductionwidget.cpp" />
+    <ClCompile Include="D:\luxrender\lux\qtgui\openexroptionsdialog.cpp" />
+    <ClCompile Include="D:\luxrender\lux\qtgui\panewidget.cpp" />
+    <ClCompile Include="D:\luxrender\lux\qtgui\queue.cpp" />
+    <ClCompile Include="D:\luxrender\lux\qtgui\renderview.cpp" />
+    <ClCompile Include="D:\luxrender\lux\qtgui\tonemapwidget.cpp" />
+    <ClCompile Include="D:\luxrender\lux\console\commandline.cpp" />
+    <ClCompile Include="qtgui\moc_aboutdialog.cxx" />
+    <ClCompile Include="qtgui\moc_advancedinfowidget.cxx" />
+    <ClCompile Include="qtgui\moc_batchprocessdialog.cxx" />
+    <ClCompile Include="qtgui\moc_colorspacewidget.cxx" />
+    <ClCompile Include="qtgui\moc_gammawidget.cxx" />
+    <ClCompile Include="qtgui\moc_histogramview.cxx" />
+    <ClCompile Include="qtgui\moc_histogramwidget.cxx" />
+    <ClCompile Include="qtgui\moc_lenseffectswidget.cxx" />
+    <ClCompile Include="qtgui\moc_lightgroupwidget.cxx" />
+    <ClCompile Include="qtgui\moc_luxapp.cxx" />
+    <ClCompile Include="qtgui\moc_mainwindow.cxx" />
+    <ClCompile Include="qtgui\moc_noisereductionwidget.cxx" />
+    <ClCompile Include="qtgui\moc_openexroptionsdialog.cxx" />
+    <ClCompile Include="qtgui\moc_panewidget.cxx" />
+    <ClCompile Include="qtgui\moc_queue.cxx" />
+    <ClCompile Include="qtgui\moc_renderview.cxx" />
+    <ClCompile Include="qtgui\moc_tonemapwidget.cxx" />
+    <ClCompile Include="qrc_icons.cxx" />
+    <ClCompile Include="qrc_splash.cxx" />
+    <ClCompile Include="qrc_images.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/luxrender/windows/Build_CMake/LuxRender/luxShared.vcxproj">
+      <Project>7769438E-021C-4169-8B0E-10415F23E583</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

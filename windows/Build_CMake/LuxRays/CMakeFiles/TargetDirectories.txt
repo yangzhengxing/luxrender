@@ -1,0 +1,13 @@
+D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/ALL_BUILD.dir
+D:/luxrender/windows/Build_CMake/LuxRays/samples/benchsimple/CMakeFiles/benchsimple.dir
+D:/luxrender/windows/Build_CMake/LuxRays/samples/luxcoreui/deps/glfw-3.1.1/src/CMakeFiles/glfw.dir
+D:/luxrender/windows/Build_CMake/LuxRays/src/luxcore/CMakeFiles/luxcore.dir
+D:/luxrender/windows/Build_CMake/LuxRays/samples/luxcoreconsole/CMakeFiles/luxcoreconsole.dir
+D:/luxrender/windows/Build_CMake/LuxRays/samples/luxcoredemo/CMakeFiles/luxcoredemo.dir
+D:/luxrender/windows/Build_CMake/LuxRays/samples/luxcoreimplserializationdemo/CMakeFiles/luxcoreimplserializationdemo.dir
+D:/luxrender/windows/Build_CMake/LuxRays/samples/luxcorescenedemo/CMakeFiles/luxcorescenedemo.dir
+D:/luxrender/windows/Build_CMake/LuxRays/samples/luxcoreui/CMakeFiles/luxcoreui.dir
+D:/luxrender/windows/Build_CMake/LuxRays/src/luxrays/CMakeFiles/luxrays.dir
+D:/luxrender/windows/Build_CMake/LuxRays/src/luxcore/CMakeFiles/pyluxcore.dir
+D:/luxrender/windows/Build_CMake/LuxRays/samples/smallluxgpu4/CMakeFiles/slg4.dir
+D:/luxrender/windows/Build_CMake/LuxRays/src/slg/CMakeFiles/smallluxgpu.dir

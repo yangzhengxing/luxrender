@@ -1,0 +1,935 @@
+The system is: Windows - 6.1 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 21:29:00。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\2.8.12.2\CompilerIdC\CompilerIdC.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+  正在创建目录“Debug\CompilerIdC.tlog\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdC.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\2.8.12.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdC.tlog\unsuccessfulbuild”。
+  正在对“Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\2.8.12.2\CompilerIdC\CompilerIdC.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:05.27
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 21:29:05。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\2.8.12.2\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+  正在创建目录“Debug\CompilerIdCXX.tlog\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdCXX.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\2.8.12.2\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdCXX.tlog\unsuccessfulbuild”。
+  正在对“Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\2.8.12.2\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.59
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1304670879.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 21:29:06。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec1304670879.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec1304670879.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec1304670879.dir\Debug\cmTryCom.87B8D77B.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec1304670879.dir\Debug\cmTryCom.87B8D77B.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1304670879.dir\Debug\\" /Fd"cmTryCompileExec1304670879.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1304670879.dir\Debug\\" /Fd"cmTryCompileExec1304670879.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue testCCompiler.c
+  testCCompiler.c
+  
+Link:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1304670879.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1304670879.pdb" /SUBSYSTEM:CONSOLE,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1304670879.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec1304670879.dir\Debug\testCCompiler.obj
+  cmTryCompileExec1304670879.vcxproj -> D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1304670879.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec1304670879.dir\Debug\cmTryCom.87B8D77B.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec1304670879.dir\Debug\cmTryCom.87B8D77B.tlog\cmTryCompileExec1304670879.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec1304670879.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.83
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3239022976.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 21:29:07。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec3239022976.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3239022976.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec3239022976.dir\Debug\cmTryCom.C3CB8E55.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3239022976.dir\Debug\cmTryCom.C3CB8E55.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3239022976.dir\Debug\\" /Fd"cmTryCompileExec3239022976.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "D:\luxrender\windows_deps\bin\CMake\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3239022976.dir\Debug\\" /Fd"cmTryCompileExec3239022976.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "D:\luxrender\windows_deps\bin\CMake\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3239022976.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3239022976.pdb" /SUBSYSTEM:CONSOLE,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3239022976.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec3239022976.dir\Debug\CMakeCCompilerABI.obj
+  cmTryCompileExec3239022976.vcxproj -> D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3239022976.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec3239022976.dir\Debug\cmTryCom.C3CB8E55.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec3239022976.dir\Debug\cmTryCom.C3CB8E55.tlog\cmTryCompileExec3239022976.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec3239022976.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.45
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3104453081.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 21:29:08。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec3104453081.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3104453081.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec3104453081.dir\Debug\cmTryCom.E0ED97A4.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3104453081.dir\Debug\cmTryCom.E0ED97A4.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3104453081.dir\Debug\\" /Fd"cmTryCompileExec3104453081.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3104453081.dir\Debug\\" /Fd"cmTryCompileExec3104453081.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3104453081.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3104453081.pdb" /SUBSYSTEM:CONSOLE,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3104453081.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec3104453081.dir\Debug\testCXXCompiler.obj
+  cmTryCompileExec3104453081.vcxproj -> D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3104453081.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec3104453081.dir\Debug\cmTryCom.E0ED97A4.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec3104453081.dir\Debug\cmTryCom.E0ED97A4.tlog\cmTryCompileExec3104453081.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec3104453081.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.41
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1107242788.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 21:29:08。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec1107242788.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec1107242788.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec1107242788.dir\Debug\cmTryCom.FDBC1835.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec1107242788.dir\Debug\cmTryCom.FDBC1835.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1107242788.dir\Debug\\" /Fd"cmTryCompileExec1107242788.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "D:\luxrender\windows_deps\bin\CMake\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1107242788.dir\Debug\\" /Fd"cmTryCompileExec1107242788.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "D:\luxrender\windows_deps\bin\CMake\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1107242788.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1107242788.pdb" /SUBSYSTEM:CONSOLE,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1107242788.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec1107242788.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTryCompileExec1107242788.vcxproj -> D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1107242788.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec1107242788.dir\Debug\cmTryCom.FDBC1835.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec1107242788.dir\Debug\cmTryCom.FDBC1835.tlog\cmTryCompileExec1107242788.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec1107242788.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.44
+
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3502864492.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 21:29:11。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec3502864492.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3502864492.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec3502864492.dir\Debug\cmTryCom.13F3B4F4.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3502864492.dir\Debug\cmTryCom.13F3B4F4.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec3502864492.dir\Debug\\" /Fd"cmTryCompileExec3502864492.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec3502864492.dir\Debug\\" /Fd"cmTryCompileExec3502864492.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue src.c
+  
+  src.c
+Link:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3502864492.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3502864492.pdb" /SUBSYSTEM:CONSOLE,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3502864492.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec3502864492.dir\Debug\src.obj
+  cmTryCompileExec3502864492.vcxproj -> D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3502864492.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec3502864492.dir\Debug\cmTryCom.13F3B4F4.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec3502864492.dir\Debug\cmTryCom.13F3B4F4.tlog\cmTryCompileExec3502864492.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec3502864492.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.59
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec181693850.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 21:29:11。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec181693850.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec181693850.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec181693850.dir\Debug\cmTryCom.96DA34B6.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec181693850.dir\Debug\cmTryCom.96DA34B6.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W0 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec181693850.dir\Debug\\" /Fd"cmTryCompileExec181693850.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec181693850.dir\Debug\\" /Fd"cmTryCompileExec181693850.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue src.cxx
+  
+  src.cxx
+Link:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec181693850.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec181693850.pdb" /SUBSYSTEM:CONSOLE,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec181693850.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec181693850.dir\Debug\src.obj
+  cmTryCompileExec181693850.vcxproj -> D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec181693850.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec181693850.dir\Debug\cmTryCom.96DA34B6.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec181693850.dir\Debug\cmTryCom.96DA34B6.tlog\cmTryCompileExec181693850.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec181693850.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.43
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3649659872.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 21:33:06。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec3649659872.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3649659872.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec3649659872.dir\Debug\cmTryCom.E1827B6A.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3649659872.dir\Debug\cmTryCom.E1827B6A.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec3649659872.dir\Debug\\" /Fd"cmTryCompileExec3649659872.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec3649659872.dir\Debug\\" /Fd"cmTryCompileExec3649659872.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue src.c
+  
+  src.c
+Link:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3649659872.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3649659872.pdb" /SUBSYSTEM:CONSOLE,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3649659872.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec3649659872.dir\Debug\src.obj
+  cmTryCompileExec3649659872.vcxproj -> D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3649659872.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec3649659872.dir\Debug\cmTryCom.E1827B6A.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec3649659872.dir\Debug\cmTryCom.E1827B6A.tlog\cmTryCompileExec3649659872.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec3649659872.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.49
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3864205639.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 21:33:07。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec3864205639.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3864205639.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec3864205639.dir\Debug\cmTryCom.E18B4997.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3864205639.dir\Debug\cmTryCom.E18B4997.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W0 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec3864205639.dir\Debug\\" /Fd"cmTryCompileExec3864205639.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec3864205639.dir\Debug\\" /Fd"cmTryCompileExec3864205639.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue src.cxx
+  
+  src.cxx
+Link:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3864205639.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3864205639.pdb" /SUBSYSTEM:CONSOLE,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3864205639.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec3864205639.dir\Debug\src.obj
+  cmTryCompileExec3864205639.vcxproj -> D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3864205639.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec3864205639.dir\Debug\cmTryCom.E18B4997.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec3864205639.dir\Debug\cmTryCom.E18B4997.tlog\cmTryCompileExec3864205639.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec3864205639.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.49
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3326454996.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:22:06。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec3326454996.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3326454996.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec3326454996.dir\Debug\cmTryCom.F1C67F09.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3326454996.dir\Debug\cmTryCom.F1C67F09.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec3326454996.dir\Debug\\" /Fd"cmTryCompileExec3326454996.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec3326454996.dir\Debug\\" /Fd"cmTryCompileExec3326454996.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue src.c
+  
+  src.c
+Link:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3326454996.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3326454996.pdb" /SUBSYSTEM:CONSOLE,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3326454996.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec3326454996.dir\Debug\src.obj
+  cmTryCompileExec3326454996.vcxproj -> D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3326454996.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec3326454996.dir\Debug\cmTryCom.F1C67F09.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec3326454996.dir\Debug\cmTryCom.F1C67F09.tlog\cmTryCompileExec3326454996.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec3326454996.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.95
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec4157180530.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:22:07。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec4157180530.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec4157180530.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec4157180530.dir\Debug\cmTryCom.EBCBBC2F.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec4157180530.dir\Debug\cmTryCom.EBCBBC2F.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W0 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec4157180530.dir\Debug\\" /Fd"cmTryCompileExec4157180530.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec4157180530.dir\Debug\\" /Fd"cmTryCompileExec4157180530.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue src.cxx
+  
+  src.cxx
+Link:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4157180530.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4157180530.pdb" /SUBSYSTEM:CONSOLE,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4157180530.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec4157180530.dir\Debug\src.obj
+  cmTryCompileExec4157180530.vcxproj -> D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4157180530.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec4157180530.dir\Debug\cmTryCom.EBCBBC2F.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec4157180530.dir\Debug\cmTryCom.EBCBBC2F.tlog\cmTryCompileExec4157180530.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec4157180530.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.93
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec537928241.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:27:59。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec537928241.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec537928241.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec537928241.dir\Debug\cmTryCom.E759A3CB.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec537928241.dir\Debug\cmTryCom.E759A3CB.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec537928241.dir\Debug\\" /Fd"cmTryCompileExec537928241.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec537928241.dir\Debug\\" /Fd"cmTryCompileExec537928241.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue src.c
+  
+  src.c
+Link:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec537928241.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec537928241.pdb" /SUBSYSTEM:CONSOLE,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec537928241.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec537928241.dir\Debug\src.obj
+  cmTryCompileExec537928241.vcxproj -> D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec537928241.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec537928241.dir\Debug\cmTryCom.E759A3CB.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec537928241.dir\Debug\cmTryCom.E759A3CB.tlog\cmTryCompileExec537928241.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec537928241.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.09
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1838713094.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:28:00。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec1838713094.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec1838713094.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec1838713094.dir\Debug\cmTryCom.70763453.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec1838713094.dir\Debug\cmTryCom.70763453.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W0 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec1838713094.dir\Debug\\" /Fd"cmTryCompileExec1838713094.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec1838713094.dir\Debug\\" /Fd"cmTryCompileExec1838713094.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue src.cxx
+  
+  src.cxx
+Link:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1838713094.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1838713094.pdb" /SUBSYSTEM:CONSOLE,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1838713094.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec1838713094.dir\Debug\src.obj
+  cmTryCompileExec1838713094.vcxproj -> D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1838713094.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec1838713094.dir\Debug\cmTryCom.70763453.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec1838713094.dir\Debug\cmTryCom.70763453.tlog\cmTryCompileExec1838713094.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec1838713094.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.67
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec229917687.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:41:19。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec229917687.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec229917687.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec229917687.dir\Debug\cmTryCom.148E71CB.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec229917687.dir\Debug\cmTryCom.148E71CB.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec229917687.dir\Debug\\" /Fd"cmTryCompileExec229917687.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec229917687.dir\Debug\\" /Fd"cmTryCompileExec229917687.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue src.c
+  
+  src.c
+Link:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec229917687.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec229917687.pdb" /SUBSYSTEM:CONSOLE,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec229917687.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec229917687.dir\Debug\src.obj
+  cmTryCompileExec229917687.vcxproj -> D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec229917687.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec229917687.dir\Debug\cmTryCom.148E71CB.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec229917687.dir\Debug\cmTryCom.148E71CB.tlog\cmTryCompileExec229917687.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec229917687.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.46
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2912648680.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:41:19。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec2912648680.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec2912648680.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec2912648680.dir\Debug\cmTryCom.B8CF0F47.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec2912648680.dir\Debug\cmTryCom.B8CF0F47.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W0 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec2912648680.dir\Debug\\" /Fd"cmTryCompileExec2912648680.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec2912648680.dir\Debug\\" /Fd"cmTryCompileExec2912648680.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue src.cxx
+  
+  src.cxx
+Link:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2912648680.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2912648680.pdb" /SUBSYSTEM:CONSOLE,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2912648680.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec2912648680.dir\Debug\src.obj
+  cmTryCompileExec2912648680.vcxproj -> D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2912648680.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec2912648680.dir\Debug\cmTryCom.B8CF0F47.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec2912648680.dir\Debug\cmTryCom.B8CF0F47.tlog\cmTryCompileExec2912648680.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec2912648680.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.47
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2850769341.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:53:40。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec2850769341.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec2850769341.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec2850769341.dir\Debug\cmTryCom.2008ED87.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec2850769341.dir\Debug\cmTryCom.2008ED87.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec2850769341.dir\Debug\\" /Fd"cmTryCompileExec2850769341.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec2850769341.dir\Debug\\" /Fd"cmTryCompileExec2850769341.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue src.c
+  
+  src.c
+Link:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2850769341.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2850769341.pdb" /SUBSYSTEM:CONSOLE,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2850769341.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec2850769341.dir\Debug\src.obj
+  cmTryCompileExec2850769341.vcxproj -> D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2850769341.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec2850769341.dir\Debug\cmTryCom.2008ED87.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec2850769341.dir\Debug\cmTryCom.2008ED87.tlog\cmTryCompileExec2850769341.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec2850769341.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.39
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1650881008.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:53:41。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec1650881008.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec1650881008.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec1650881008.dir\Debug\cmTryCom.C1E87F89.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec1650881008.dir\Debug\cmTryCom.C1E87F89.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W0 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec1650881008.dir\Debug\\" /Fd"cmTryCompileExec1650881008.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec1650881008.dir\Debug\\" /Fd"cmTryCompileExec1650881008.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue src.cxx
+  
+  src.cxx
+Link:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1650881008.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1650881008.pdb" /SUBSYSTEM:CONSOLE,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1650881008.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec1650881008.dir\Debug\src.obj
+  cmTryCompileExec1650881008.vcxproj -> D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1650881008.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec1650881008.dir\Debug\cmTryCom.C1E87F89.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec1650881008.dir\Debug\cmTryCom.C1E87F89.tlog\cmTryCompileExec1650881008.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec1650881008.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.52
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec649777133.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/23 19:24:11。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec649777133.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec649777133.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec649777133.dir\Debug\cmTryCom.C2C6D5FA.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec649777133.dir\Debug\cmTryCom.C2C6D5FA.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec649777133.dir\Debug\\" /Fd"cmTryCompileExec649777133.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec649777133.dir\Debug\\" /Fd"cmTryCompileExec649777133.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue src.c
+  
+  src.c
+Link:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec649777133.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec649777133.pdb" /SUBSYSTEM:CONSOLE,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec649777133.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec649777133.dir\Debug\src.obj
+  cmTryCompileExec649777133.vcxproj -> D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec649777133.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec649777133.dir\Debug\cmTryCom.C2C6D5FA.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec649777133.dir\Debug\cmTryCom.C2C6D5FA.tlog\cmTryCompileExec649777133.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec649777133.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.91
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2510177848.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/23 19:24:13。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec2510177848.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec2510177848.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec2510177848.dir\Debug\cmTryCom.83193692.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec2510177848.dir\Debug\cmTryCom.83193692.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W0 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec2510177848.dir\Debug\\" /Fd"cmTryCompileExec2510177848.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec2510177848.dir\Debug\\" /Fd"cmTryCompileExec2510177848.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue src.cxx
+  
+  src.cxx
+Link:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2510177848.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2510177848.pdb" /SUBSYSTEM:CONSOLE,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2510177848.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec2510177848.dir\Debug\src.obj
+  cmTryCompileExec2510177848.vcxproj -> D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2510177848.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec2510177848.dir\Debug\cmTryCom.83193692.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec2510177848.dir\Debug\cmTryCom.83193692.tlog\cmTryCompileExec2510177848.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec2510177848.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.55
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+

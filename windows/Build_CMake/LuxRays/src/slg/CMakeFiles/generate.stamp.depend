@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+D:/luxrender/luxrays/src/slg/CMakeLists.txt
+D:/luxrender/windows_deps/bin/CMake/share/cmake-2.8/Modules/FindDoxygen.cmake
+D:/luxrender/windows_deps/bin/CMake/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+D:/luxrender/windows_deps/bin/CMake/share/cmake-2.8/Modules/FindPackageMessage.cmake
+D:/luxrender/windows_deps/bin/CMake/share/cmake-2.8/Modules/CMakeParseArguments.cmake

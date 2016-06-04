@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\luxcoreui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\luxcoreapp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\uiloop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\uikeys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\uimenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\uimouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\helpwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\logwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\objectwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\objecteditorwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\acceleratorwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\epsilonwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\filmchannelswindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\filmoutputswindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\filmradiancegroupswindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\imagewindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\lightstrategywindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\ocldevicewindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\pixelfilterwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\renderenginewindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\samplerwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\statswindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\imgui_impl_glfw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\resources\luxlogo_bg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\deps\imgui-1.46\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\deps\imgui-1.46\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\deps\imgui-1.46\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\deps\nfd\nfd_common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\luxrays\samples\luxcoreui\deps\nfd\nfd_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E2572864-12E0-4EE7-9706-84FFABD4E307}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

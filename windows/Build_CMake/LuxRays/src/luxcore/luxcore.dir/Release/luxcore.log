@@ -1,0 +1,17 @@
+﻿Build started 2016/4/3 16:27:45.
+     1>Project "D:\luxrender\windows\Build_CMake\LuxRays\src\luxcore\luxcore.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\luxrender\windows_deps\include /ID:\Cuda\include /ID:\luxrender\windows_deps\include\Boost /ID:\luxrender\windows_deps\include\OpenEXR /ID:\luxrender\windows_deps\include\OpenImageIO /ID:\luxrender\luxrays\include /ID:\luxrender\windows_deps\include\Python3 /Zi /nologo /W0 /WX- /MP /Od /Ob2 /Oi /Ot /Oy /GT /GL /D WIN32 /D _WINDOWS /D NDEBUG /D WIN32_LEAN_AND_MEAN /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D __SSE2__ /D __SSE__ /D __MMX__ /D BOOST_ALL_NO_LIB /D FREEIMAGE_LIB /D FREEGLUT_STATIC /D GLEW_STATIC /D BOOST_FILESYSTEM_NO_DEPRECATED /D BOOST_STATIC_LIB /D BOOST_PYTHON_STATIC_LIB /D CPP_API_EXPORTS /D "CMAKE_INTDIR=\"Release\"" /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"luxcore.dir\Release\\" /Fd"luxcore.dir\Release\vc120.pdb" /Gd /TP /wd4244 /wd4756 /wd4267 /wd4056 /wd4305 /wd4800 /errorReport:prompt  /Qfast_transcendentals D:\luxrender\luxrays\src\luxcore\luxcore.cpp D:\luxrender\luxrays\src\luxcore\luxparser\luxparse.cpp D:\luxrender\luxrays\src\luxcore\luxparser\luxlex.cpp
+         luxcore.cpp
+         luxparse.cpp
+         luxlex.cpp
+       Lib:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\luxrender\windows\Build_CMake\LuxRays\lib\Release\luxcore.lib" /NOLOGO /MACHINE:X64 /LTCG luxcore.dir\Release\luxcore.obj
+         luxcore.dir\Release\luxparse.obj
+         luxcore.dir\Release\luxlex.obj
+         luxcore.vcxproj -> D:\luxrender\windows\Build_CMake\LuxRays\lib\Release\luxcore.lib
+     1>Done Building Project "D:\luxrender\windows\Build_CMake\LuxRays\src\luxcore\luxcore.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:31.52

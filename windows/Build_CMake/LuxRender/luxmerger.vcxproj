@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{5BF5FA3B-DFFB-4021-A694-D22398D9DDF1}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>luxmerger</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\luxrender\windows\Build_CMake\LuxRender\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">luxmerger.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">luxmerger</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\luxrender\windows\Build_CMake\LuxRender\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">luxmerger.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">luxmerger</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\luxrender\windows\Build_CMake\LuxRender\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">luxmerger.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">luxmerger</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\luxrender\windows\Build_CMake\LuxRender\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">luxmerger.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">luxmerger</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;BOOST_ALL_NO_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_FILESYSTEM_VERSION=3;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;LUX_USE_CONFIG_H;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;LUX_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;BOOST_ALL_NO_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_FILESYSTEM_VERSION=3;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;LUX_USE_CONFIG_H;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;LUX_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Debug\lux.lib;D:\luxrender\windows\Build_CMake\LuxRays\lib\release\luxrays.lib;D:\luxrender\windows\Build_CMake\LuxRays\lib\release\luxcore.lib;D:\luxrender\windows\Build_CMake\LuxRays\lib\release\smallluxgpu.lib;D:\luxrender\windows_deps\x64\Release\lib\embree.lib;D:\Cuda\lib\x64\OpenCL.lib;glu32.lib;opengl32.lib;D:\luxrender\windows_deps\x64\Release\lib\OpenImageIO.lib;D:\luxrender\windows_deps\x64\Release\lib\libtiff.lib;D:\luxrender\windows_deps\x64\Release\lib\jpeg.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_thread-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_program_options-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_filesystem-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_serialization-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_iostreams-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_regex-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_system-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_zlib-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\fftw3.lib;shell32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/luxrender/windows_deps/x64/Release/lib;D:/luxrender/windows_deps/x64/Release/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>D:/luxrender/windows/Build_CMake/LuxRender/Debug/luxmerger.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/luxrender/windows/Build_CMake/LuxRender/Debug/luxmerger.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /Qfast_transcendentals %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4244;4756;4267;4056;4305;4800</DisableSpecificWarnings>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>true</OmitFramePointers>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_ALL_NO_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_FILESYSTEM_VERSION=3;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;LUX_USE_CONFIG_H;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;LUX_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_ALL_NO_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_FILESYSTEM_VERSION=3;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;LUX_USE_CONFIG_H;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;LUX_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Release\lux.lib;D:\luxrender\windows\Build_CMake\LuxRays\lib\release\luxrays.lib;D:\luxrender\windows\Build_CMake\LuxRays\lib\release\luxcore.lib;D:\luxrender\windows\Build_CMake\LuxRays\lib\release\smallluxgpu.lib;D:\luxrender\windows_deps\x64\Release\lib\embree.lib;D:\Cuda\lib\x64\OpenCL.lib;glu32.lib;opengl32.lib;D:\luxrender\windows_deps\x64\Release\lib\OpenImageIO.lib;D:\luxrender\windows_deps\x64\Release\lib\libtiff.lib;D:\luxrender\windows_deps\x64\Release\lib\jpeg.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_thread-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_program_options-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_filesystem-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_serialization-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_iostreams-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_regex-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_system-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_zlib-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\fftw3.lib;shell32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/luxrender/windows_deps/x64/Release/lib;D:/luxrender/windows_deps/x64/Release/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>D:/luxrender/windows/Build_CMake/LuxRender/Release/luxmerger.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/luxrender/windows/Build_CMake/LuxRender/Release/luxmerger.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_ALL_NO_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_FILESYSTEM_VERSION=3;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;LUX_USE_CONFIG_H;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;LUX_DLL;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_ALL_NO_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_FILESYSTEM_VERSION=3;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;LUX_USE_CONFIG_H;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;LUX_DLL;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;MinSizeRel\lux.lib;D:\luxrender\windows\Build_CMake\LuxRays\lib\release\luxrays.lib;D:\luxrender\windows\Build_CMake\LuxRays\lib\release\luxcore.lib;D:\luxrender\windows\Build_CMake\LuxRays\lib\release\smallluxgpu.lib;D:\luxrender\windows_deps\x64\Release\lib\embree.lib;D:\Cuda\lib\x64\OpenCL.lib;glu32.lib;opengl32.lib;D:\luxrender\windows_deps\x64\Release\lib\OpenImageIO.lib;D:\luxrender\windows_deps\x64\Release\lib\libtiff.lib;D:\luxrender\windows_deps\x64\Release\lib\jpeg.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_thread-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_program_options-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_filesystem-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_serialization-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_iostreams-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_regex-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_system-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_zlib-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\fftw3.lib;shell32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/luxrender/windows_deps/x64/Release/lib;D:/luxrender/windows_deps/x64/Release/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>D:/luxrender/windows/Build_CMake/LuxRender/MinSizeRel/luxmerger.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/luxrender/windows/Build_CMake/LuxRender/MinSizeRel/luxmerger.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> /Qfast_transcendentals %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4756;4267;4056;4305;4800</DisableSpecificWarnings>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>true</OmitFramePointers>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_ALL_NO_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_FILESYSTEM_VERSION=3;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;LUX_USE_CONFIG_H;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;LUX_DLL;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_ALL_NO_LIB;FREEGLUT_STATIC;GLEW_STATIC;BOOST_FILESYSTEM_NO_DEPRECATED;BOOST_FILESYSTEM_VERSION=3;BOOST_STATIC_LIB;BOOST_PYTHON_STATIC_LIB;LUX_USE_CONFIG_H;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_UNICODE;__SSE2__;__SSE__;__MMX__;LUX_DLL;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\luxrender\windows\Build_CMake\LuxRender;D:\luxrender\lux;D:\luxrender\lux\lights\sphericalfunction;D:\luxrender\lux\core\reflection\microfacetdistribution;D:\luxrender\lux\core\reflection\fresnel;D:\luxrender\lux\core\reflection\bxdf;D:\luxrender\lux\core\reflection\bsdf;D:\luxrender\lux\core\reflection;D:\luxrender\lux\core\queryable;D:\luxrender\lux\core;D:\luxrender\lux\core\external;D:\luxrender\luxrays\include;D:\Cuda\include;D:\luxrender\windows_deps\include;D:\luxrender\windows_deps\include\Boost;D:\luxrender\windows_deps\include\OpenImageIO;D:\luxrender\windows_deps\include\OpenEXR;D:\luxrender\windows_deps\include\Python3;D:\luxrender\windows_deps\include\Qt\include;D:\luxrender\windows_deps\include\Qt\include\QtGui;D:\luxrender\windows_deps\include\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;RelWithDebInfo\lux.lib;D:\luxrender\windows\Build_CMake\LuxRays\lib\release\luxrays.lib;D:\luxrender\windows\Build_CMake\LuxRays\lib\release\luxcore.lib;D:\luxrender\windows\Build_CMake\LuxRays\lib\release\smallluxgpu.lib;D:\luxrender\windows_deps\x64\Release\lib\embree.lib;D:\Cuda\lib\x64\OpenCL.lib;glu32.lib;opengl32.lib;D:\luxrender\windows_deps\x64\Release\lib\OpenImageIO.lib;D:\luxrender\windows_deps\x64\Release\lib\libtiff.lib;D:\luxrender\windows_deps\x64\Release\lib\jpeg.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_thread-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_program_options-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_filesystem-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_serialization-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_iostreams-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_regex-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_system-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\libboost_zlib-vc120-mt-1_56.lib;D:\luxrender\windows_deps\x64\Release\lib\fftw3.lib;shell32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/luxrender/windows_deps/x64/Release/lib;D:/luxrender/windows_deps/x64/Release/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>D:/luxrender/windows/Build_CMake/LuxRender/RelWithDebInfo/luxmerger.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/luxrender/windows/Build_CMake/LuxRender/RelWithDebInfo/luxmerger.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\luxrender\lux\tools\luxmerger.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/luxrender/windows/Build_CMake/LuxRender/luxShared.vcxproj">
+      <Project>7769438E-021C-4169-8B0E-10415F23E583</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\luxrender\lux\console\commandline.cpp">
+      <Filter>Source Files\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\console\luxconsole.cpp">
+      <Filter>Source Files\Console</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\luxrender\lux\console\commandline.h">
+      <Filter>Header Files\Console</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{139AB3E9-94D9-430E-BF80-995733DA1835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{72DC9717-AC45-4331-B36B-691620A2A9D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Console">
+      <UniqueIdentifier>{6A5D7670-9505-4C5E-9198-C00106298C99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Console">
+      <UniqueIdentifier>{5028EDE5-5CA9-49CC-9B9C-17E8D28CC665}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

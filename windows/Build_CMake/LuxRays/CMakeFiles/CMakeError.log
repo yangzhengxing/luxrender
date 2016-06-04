@@ -1,0 +1,315 @@
+Determining if files pthread.h exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec161733458.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 21:29:09。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec161733458.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec161733458.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec161733458.dir\Debug\cmTryCom.1D202D49.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec161733458.dir\Debug\cmTryCom.1D202D49.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec161733458.dir\Debug\\" /Fd"cmTryCompileExec161733458.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec161733458.dir\Debug\\" /Fd"cmTryCompileExec161733458.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec161733458.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec161733458.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec161733458.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec161733458.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.53
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+
+Determining if files pthread.h exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3759230387.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 21:33:05。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec3759230387.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3759230387.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec3759230387.dir\Debug\cmTryCom.D8C6C455.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3759230387.dir\Debug\cmTryCom.D8C6C455.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3759230387.dir\Debug\\" /Fd"cmTryCompileExec3759230387.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3759230387.dir\Debug\\" /Fd"cmTryCompileExec3759230387.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec3759230387.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec3759230387.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec3759230387.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec3759230387.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.25
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+
+Determining if files pthread.h exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1156306122.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:22:04。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec1156306122.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec1156306122.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec1156306122.dir\Debug\cmTryCom.4978BED3.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec1156306122.dir\Debug\cmTryCom.4978BED3.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1156306122.dir\Debug\\" /Fd"cmTryCompileExec1156306122.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1156306122.dir\Debug\\" /Fd"cmTryCompileExec1156306122.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec1156306122.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec1156306122.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec1156306122.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec1156306122.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.34
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+
+Determining if files pthread.h exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec45672993.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:27:56。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec45672993.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec45672993.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec45672993.dir\Debug\cmTryCom.B61E8E97.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec45672993.dir\Debug\cmTryCom.B61E8E97.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec45672993.dir\Debug\\" /Fd"cmTryCompileExec45672993.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec45672993.dir\Debug\\" /Fd"cmTryCompileExec45672993.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec45672993.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec45672993.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec45672993.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec45672993.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:02.16
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+
+Determining if files pthread.h exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2317592008.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:41:18。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec2317592008.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec2317592008.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec2317592008.dir\Debug\cmTryCom.6E604ACB.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec2317592008.dir\Debug\cmTryCom.6E604ACB.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2317592008.dir\Debug\\" /Fd"cmTryCompileExec2317592008.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2317592008.dir\Debug\\" /Fd"cmTryCompileExec2317592008.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec2317592008.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec2317592008.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec2317592008.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec2317592008.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.24
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+
+Determining if files pthread.h exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec555971321.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/22 22:53:39。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec555971321.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec555971321.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec555971321.dir\Debug\cmTryCom.FAE3DCB2.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec555971321.dir\Debug\cmTryCom.FAE3DCB2.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec555971321.dir\Debug\\" /Fd"cmTryCompileExec555971321.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec555971321.dir\Debug\\" /Fd"cmTryCompileExec555971321.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec555971321.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec555971321.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec555971321.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec555971321.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.25
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+
+Determining if files pthread.h exist failed with the following output:
+Change Dir: D:/luxrender/windows/Build_CMake/LuxRays/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3622153677.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/23 19:23:57。
+节点 1 上的项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec3622153677.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3622153677.dir\Debug\”。
+  正在创建目录“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec3622153677.dir\Debug\cmTryCom.5B8C8E2B.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3622153677.dir\Debug\cmTryCom.5B8C8E2B.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3622153677.dir\Debug\\" /Fd"cmTryCompileExec3622153677.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3622153677.dir\Debug\\" /Fd"cmTryCompileExec3622153677.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue CheckIncludeFiles.c
+  CheckIncludeFiles.c
+  
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec3622153677.vcxproj]
+已完成生成项目“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec3622153677.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec3622153677.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\luxrender\windows\Build_CMake\LuxRays\CMakeFiles\CMakeTmp\cmTryCompileExec3622153677.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:12.52
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+

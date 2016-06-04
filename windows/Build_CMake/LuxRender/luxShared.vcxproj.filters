@@ -1,0 +1,1692 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="luxparse.cpp">
+      <Filter>Source Files\Core\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="luxlex.cpp">
+      <Filter>Source Files\Core\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\api.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\asyncstream.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\camera.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\cameraresponse.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\context.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\contribution.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\partialcontribution.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\dynload.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\exrio.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\filedata.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\film.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\igiio.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\imagereader.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\light.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\material.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\osfunc.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\paramset.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\photonmap.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\pngio.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\primitive.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\rendererstatistics.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\renderfarm.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\renderinghints.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\sampling.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\scene.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\shape.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\texture.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\tgaio.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\timer.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\tigerhash.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\transport.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\util.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\volume.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\scheduler.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\server\renderserver.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\geometry\raydifferential.cpp">
+      <Filter>Source Files\Core\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\queryable\queryable.cpp">
+      <Filter>Source Files\Core\Queryable</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\queryable\queryableattribute.cpp">
+      <Filter>Source Files\Core\Queryable</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\queryable\queryableregistry.cpp">
+      <Filter>Source Files\Core\Queryable</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\bxdf.cpp">
+      <Filter>Source Files\Core\Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\fresnel.cpp">
+      <Filter>Source Files\Core\Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\microfacetdistribution.cpp">
+      <Filter>Source Files\Core\Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\bsdf\doublesidebsdf.cpp">
+      <Filter>Source Files\Core\Reflection\BSDF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\bsdf\layeredbsdf.cpp">
+      <Filter>Source Files\Core\Reflection\BSDF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\bsdf\mixbsdf.cpp">
+      <Filter>Source Files\Core\Reflection\BSDF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\bsdf\multibsdf.cpp">
+      <Filter>Source Files\Core\Reflection\BSDF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\bsdf\schlickbsdf.cpp">
+      <Filter>Source Files\Core\Reflection\BSDF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\bsdf\singlebsdf.cpp">
+      <Filter>Source Files\Core\Reflection\BSDF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\bxdf\asperity.cpp">
+      <Filter>Source Files\Core\Reflection\BxDF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\bxdf\brdftobtdf.cpp">
+      <Filter>Source Files\Core\Reflection\BxDF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\bxdf\cooktorrance.cpp">
+      <Filter>Source Files\Core\Reflection\BxDF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\bxdf\fresnelblend.cpp">
+      <Filter>Source Files\Core\Reflection\BxDF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\bxdf\irawan.cpp">
+      <Filter>Source Files\Core\Reflection\BxDF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\bxdf\lafortune.cpp">
+      <Filter>Source Files\Core\Reflection\BxDF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\bxdf\lambertian.cpp">
+      <Filter>Source Files\Core\Reflection\BxDF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\bxdf\microfacet.cpp">
+      <Filter>Source Files\Core\Reflection\BxDF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\bxdf\nulltransmission.cpp">
+      <Filter>Source Files\Core\Reflection\BxDF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\bxdf\orennayar.cpp">
+      <Filter>Source Files\Core\Reflection\BxDF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\bxdf\schlickbrdf.cpp">
+      <Filter>Source Files\Core\Reflection\BxDF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\bxdf\schlickscatter.cpp">
+      <Filter>Source Files\Core\Reflection\BxDF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\bxdf\schlicktranslucentbtdf.cpp">
+      <Filter>Source Files\Core\Reflection\BxDF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\bxdf\specularreflection.cpp">
+      <Filter>Source Files\Core\Reflection\BxDF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\bxdf\speculartransmission.cpp">
+      <Filter>Source Files\Core\Reflection\BxDF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\fresnel\fresnelcauchy.cpp">
+      <Filter>Source Files\Core\Reflection\Fresnel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\fresnel\fresnelconductor.cpp">
+      <Filter>Source Files\Core\Reflection\Fresnel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\fresnel\fresneldielectric.cpp">
+      <Filter>Source Files\Core\Reflection\Fresnel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\fresnel\fresnelgeneral.cpp">
+      <Filter>Source Files\Core\Reflection\Fresnel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\fresnel\fresnelnoop.cpp">
+      <Filter>Source Files\Core\Reflection\Fresnel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\fresnel\fresnelslick.cpp">
+      <Filter>Source Files\Core\Reflection\Fresnel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\microfacetdistribution\anisotropic.cpp">
+      <Filter>Source Files\Core\Reflection\Microfacet Distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\microfacetdistribution\beckmann.cpp">
+      <Filter>Source Files\Core\Reflection\Microfacet Distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\microfacetdistribution\blinn.cpp">
+      <Filter>Source Files\Core\Reflection\Microfacet Distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\microfacetdistribution\schlickdistribution.cpp">
+      <Filter>Source Files\Core\Reflection\Microfacet Distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\core\reflection\microfacetdistribution\wardisotropic.cpp">
+      <Filter>Source Files\Core\Reflection\Microfacet Distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\accelerators\bruteforce.cpp">
+      <Filter>Source Files\Accelerators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\accelerators\bvhaccel.cpp">
+      <Filter>Source Files\Accelerators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\accelerators\qbvhaccel.cpp">
+      <Filter>Source Files\Accelerators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\accelerators\sqbvhaccel.cpp">
+      <Filter>Source Files\Accelerators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\accelerators\tabreckdtree.cpp">
+      <Filter>Source Files\Accelerators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\accelerators\unsafekdtree.cpp">
+      <Filter>Source Files\Accelerators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\cameras\environment.cpp">
+      <Filter>Source Files\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\cameras\perspective.cpp">
+      <Filter>Source Files\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\cameras\orthographic.cpp">
+      <Filter>Source Files\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\cameras\realistic.cpp">
+      <Filter>Source Files\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\film\fleximage.cpp">
+      <Filter>Source Files\Films</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\filters\box.cpp">
+      <Filter>Source Files\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\filters\gaussian.cpp">
+      <Filter>Source Files\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\filters\mitchell.cpp">
+      <Filter>Source Files\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\filters\sinc.cpp">
+      <Filter>Source Files\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\filters\triangle.cpp">
+      <Filter>Source Files\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\filters\catmullrom.cpp">
+      <Filter>Source Files\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\filters\blackmanharris.cpp">
+      <Filter>Source Files\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\integrators\bidirectional.cpp">
+      <Filter>Source Files\Integrators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\integrators\directlighting.cpp">
+      <Filter>Source Files\Integrators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\integrators\distributedpath.cpp">
+      <Filter>Source Files\Integrators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\integrators\emission.cpp">
+      <Filter>Source Files\Integrators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\integrators\exphotonmap.cpp">
+      <Filter>Source Files\Integrators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\integrators\igi.cpp">
+      <Filter>Source Files\Integrators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\integrators\multi.cpp">
+      <Filter>Source Files\Integrators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\integrators\path.cpp">
+      <Filter>Source Files\Integrators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\integrators\single.cpp">
+      <Filter>Source Files\Integrators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\integrators\none.cpp">
+      <Filter>Source Files\Integrators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\integrators\sppm.cpp">
+      <Filter>Source Files\Integrators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\lights\area.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\lights\distant.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\lights\infinite.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\lights\infinitesample.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\lights\pointlight.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\lights\projection.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\lights\sphericalfunction\photometricdata_ies.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\lights\sphericalfunction\sphericalfunction.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\lights\sphericalfunction\sphericalfunction_ies.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\lights\spot.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\lights\sky.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\lights\sky2.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\lights\sun.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\materials\carpaint.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\materials\cloth.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\materials\doubleside.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\materials\glass.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\materials\glass2.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\materials\glossy.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\materials\glossy2.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\materials\glossytranslucent.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\materials\layeredmaterial.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\materials\matte.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\materials\mattetranslucent.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\materials\metal.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\materials\metal2.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\materials\mirror.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\materials\mixmaterial.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\materials\null.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\materials\roughglass.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\materials\scattermaterial.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\materials\shinymetal.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\materials\velvet.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\pixelsamplers\hilbertpx.cpp">
+      <Filter>Source Files\Pixel Samplers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\pixelsamplers\linear.cpp">
+      <Filter>Source Files\Pixel Samplers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\pixelsamplers\lowdiscrepancypx.cpp">
+      <Filter>Source Files\Pixel Samplers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\pixelsamplers\tilepx.cpp">
+      <Filter>Source Files\Pixel Samplers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\pixelsamplers\vegas.cpp">
+      <Filter>Source Files\Pixel Samplers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\renderers\hybridrenderer.cpp">
+      <Filter>Source Files\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\renderers\hybridsamplerrenderer.cpp">
+      <Filter>Source Files\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\renderers\samplerrenderer.cpp">
+      <Filter>Source Files\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\renderers\luxcorerenderer.cpp">
+      <Filter>Source Files\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\renderers\sppmrenderer.cpp">
+      <Filter>Source Files\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\renderers\sppm\photonsampler.cpp">
+      <Filter>Source Files\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\renderers\sppm\lookupaccel.cpp">
+      <Filter>Source Files\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\renderers\sppm\hashgrid.cpp">
+      <Filter>Source Files\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\renderers\sppm\parallelhashgrid.cpp">
+      <Filter>Source Files\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\renderers\sppm\hitpoints.cpp">
+      <Filter>Source Files\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\renderers\sppm\hybridhashgrid.cpp">
+      <Filter>Source Files\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\renderers\sppm\kdtree.cpp">
+      <Filter>Source Files\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\renderers\statistics\samplerstatistics.cpp">
+      <Filter>Source Files\Renderers\Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\renderers\statistics\hybridsamplerstatistics.cpp">
+      <Filter>Source Files\Renderers\Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\renderers\statistics\luxcorestatistics.cpp">
+      <Filter>Source Files\Renderers\Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\renderers\statistics\sppmstatistics.cpp">
+      <Filter>Source Files\Renderers\Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\samplers\erpt.cpp">
+      <Filter>Source Files\Samplers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\samplers\lowdiscrepancy.cpp">
+      <Filter>Source Files\Samplers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\samplers\metrosampler.cpp">
+      <Filter>Source Files\Samplers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\samplers\random.cpp">
+      <Filter>Source Files\Samplers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\samplers\sobol.cpp">
+      <Filter>Source Files\Samplers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\shapes\cone.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\shapes\cylinder.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\shapes\deferred.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\shapes\disk.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\shapes\hairfile.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\shapes\heightfield.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\shapes\hyperboloid.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\shapes\lenscomponent.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\shapes\loopsubdiv.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\shapes\mesh.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\shapes\meshbarytriangle.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\shapes\meshmicrodisplacementtriangle.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\shapes\meshquadrilateral.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\shapes\meshwaldtriangle.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\shapes\mikktspace\mikktspace.c">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\shapes\mikktspace\weldmesh.c">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\shapes\nurbs.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\shapes\paraboloid.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\shapes\plymesh.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\shapes\plymesh\rply.c">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\shapes\sphere.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\shapes\stlmesh.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\shapes\torus.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\blackbody.cpp">
+      <Filter>Source Files\Textures\Uniform</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\constant.cpp">
+      <Filter>Source Files\Textures\Uniform</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\equalenergy.cpp">
+      <Filter>Source Files\Textures\Uniform</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\frequencytexture.cpp">
+      <Filter>Source Files\Textures\Uniform</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\gaussiantexture.cpp">
+      <Filter>Source Files\Textures\Uniform</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\hitpointcolor.cpp">
+      <Filter>Source Files\Textures\Uniform</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\irregulardata.cpp">
+      <Filter>Source Files\Textures\Uniform</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\lampspectrum.cpp">
+      <Filter>Source Files\Textures\Uniform</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\regulardata.cpp">
+      <Filter>Source Files\Textures\Uniform</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\tabulateddata.cpp">
+      <Filter>Source Files\Textures\Uniform</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\blender_base.cpp">
+      <Filter>Source Files\Textures\Blender</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\blender_blend.cpp">
+      <Filter>Source Files\Textures\Blender</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\blender_clouds.cpp">
+      <Filter>Source Files\Textures\Blender</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\blender_distortednoise.cpp">
+      <Filter>Source Files\Textures\Blender</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\blender_magic.cpp">
+      <Filter>Source Files\Textures\Blender</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\blender_marble.cpp">
+      <Filter>Source Files\Textures\Blender</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\blender_musgrave.cpp">
+      <Filter>Source Files\Textures\Blender</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\blender_noise.cpp">
+      <Filter>Source Files\Textures\Blender</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\blender_stucci.cpp">
+      <Filter>Source Files\Textures\Blender</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\blender_texlib.cpp">
+      <Filter>Source Files\Textures\Blender</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\blender_voronoi.cpp">
+      <Filter>Source Files\Textures\Blender</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\blender_wood.cpp">
+      <Filter>Source Files\Textures\Blender</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\cauchytexture.cpp">
+      <Filter>Source Files\Textures\Fresnel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\fresnelcolor.cpp">
+      <Filter>Source Files\Textures\Fresnel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\sellmeiertexture.cpp">
+      <Filter>Source Files\Textures\Fresnel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\tabulatedfresnel.cpp">
+      <Filter>Source Files\Textures\Fresnel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\add.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\band.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\bilerp.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\brick.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\checkerboard.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\cloud.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\colordepth.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\densitygrid.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\dots.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\exponential.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\fbm.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\harlequin.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\imagemap.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\marble.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\mix.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\multimix.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\scale.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\subtract.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\uv.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\uvmask.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\windy.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\textures\wrinkled.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\tonemaps\contrast.cpp">
+      <Filter>Source Files\Tonemaps</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\tonemaps\falsecolors.cpp">
+      <Filter>Source Files\Tonemaps</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\tonemaps\lineartonemap.cpp">
+      <Filter>Source Files\Tonemaps</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\tonemaps\maxwhite.cpp">
+      <Filter>Source Files\Tonemaps</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\tonemaps\nonlinear.cpp">
+      <Filter>Source Files\Tonemaps</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\tonemaps\reinhard.cpp">
+      <Filter>Source Files\Tonemaps</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\volumes\clearvolume.cpp">
+      <Filter>Source Files\Volumes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\volumes\cloudvolume.cpp">
+      <Filter>Source Files\Volumes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\volumes\exponentialvolume.cpp">
+      <Filter>Source Files\Volumes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\volumes\heterogeneous.cpp">
+      <Filter>Source Files\Volumes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\volumes\homogeneous.cpp">
+      <Filter>Source Files\Volumes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\luxrender\lux\volumes\volumegrid.cpp">
+      <Filter>Source Files\Volumes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\luxrender\lux\core\api.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\asyncstream.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\bsh.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\camera.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\cameraresponse.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\context.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\contribution.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\partialcontribution.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\dynload.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\error.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\exrio.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\fastmutex.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\filedata.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\film.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\filter.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\igiio.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\imagereader.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\kdtree.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\light.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\lux.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\material.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\mipmap.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\octree.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\osfunc.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\paramset.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\photonmap.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\pngio.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\primitive.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\randomgen.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\renderer.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\rendererstatistics.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\renderfarm.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\renderinghints.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\sampling.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\scene.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\shape.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\streamio.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\texture.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\texturecolor.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\tgaio.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\timer.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\tigerhash.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\tonemap.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\transport.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\version.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\volume.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\server\renderserver.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\external\cimg.h">
+      <Filter>Header Files\Core\External</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\external\greycstoration.h">
+      <Filter>Header Files\Core\External</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\geometry\matrix2x2.h">
+      <Filter>Header Files\Core\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\geometry\raydifferential.h">
+      <Filter>Header Files\Core\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\geometry\transform.h">
+      <Filter>Header Files\Core\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\queryable\queryable.h">
+      <Filter>Header Files\Core\Queryable</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\queryable\queryableattribute.h">
+      <Filter>Header Files\Core\Queryable</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\queryable\queryableregistry.h">
+      <Filter>Header Files\Core\Queryable</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\bxdf.h">
+      <Filter>Header Files\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\fresnel.h">
+      <Filter>Header Files\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\microfacetdistribution.h">
+      <Filter>Header Files\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\bsdf\doublesidebsdf.h">
+      <Filter>Header Files\Core\Reflection\BSDF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\bsdf\layeredbsdf.h">
+      <Filter>Header Files\Core\Reflection\BSDF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\bsdf\mixbsdf.h">
+      <Filter>Header Files\Core\Reflection\BSDF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\bsdf\multibsdf.h">
+      <Filter>Header Files\Core\Reflection\BSDF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\bsdf\schlickbsdf.h">
+      <Filter>Header Files\Core\Reflection\BSDF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\bsdf\singlebsdf.h">
+      <Filter>Header Files\Core\Reflection\BSDF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\bxdf\asperity.h">
+      <Filter>Header Files\Core\Reflection\BxDF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\bxdf\brdftobtdf.h">
+      <Filter>Header Files\Core\Reflection\BxDF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\bxdf\cooktorrance.h">
+      <Filter>Header Files\Core\Reflection\BxDF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\bxdf\fresnelblend.h">
+      <Filter>Header Files\Core\Reflection\BxDF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\bxdf\irawan.h">
+      <Filter>Header Files\Core\Reflection\BxDF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\bxdf\lafortune.h">
+      <Filter>Header Files\Core\Reflection\BxDF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\bxdf\lambertian.h">
+      <Filter>Header Files\Core\Reflection\BxDF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\bxdf\microfacet.h">
+      <Filter>Header Files\Core\Reflection\BxDF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\bxdf\nulltransmission.h">
+      <Filter>Header Files\Core\Reflection\BxDF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\bxdf\orennayar.h">
+      <Filter>Header Files\Core\Reflection\BxDF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\bxdf\schlickbrdf.h">
+      <Filter>Header Files\Core\Reflection\BxDF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\bxdf\schlickscatter.h">
+      <Filter>Header Files\Core\Reflection\BxDF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\bxdf\schlicktranslucentbtdf.h">
+      <Filter>Header Files\Core\Reflection\BxDF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\bxdf\specularreflection.h">
+      <Filter>Header Files\Core\Reflection\BxDF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\bxdf\speculartransmission.h">
+      <Filter>Header Files\Core\Reflection\BxDF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\fresnel\fresnelcauchy.h">
+      <Filter>Header Files\Core\Reflection\Fresnel</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\fresnel\fresnelconductor.h">
+      <Filter>Header Files\Core\Reflection\Fresnel</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\fresnel\fresneldielectric.h">
+      <Filter>Header Files\Core\Reflection\Fresnel</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\fresnel\fresnelgeneral.h">
+      <Filter>Header Files\Core\Reflection\Fresnel</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\fresnel\fresnelnoop.h">
+      <Filter>Header Files\Core\Reflection\Fresnel</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\fresnel\fresnelslick.h">
+      <Filter>Header Files\Core\Reflection\Fresnel</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\microfacetdistribution\anisotropic.h">
+      <Filter>Header Files\Core\Reflection\Microfacet Distribution</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\microfacetdistribution\beckmann.h">
+      <Filter>Header Files\Core\Reflection\Microfacet Distribution</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\microfacetdistribution\blinn.h">
+      <Filter>Header Files\Core\Reflection\Microfacet Distribution</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\microfacetdistribution\schlickdistribution.h">
+      <Filter>Header Files\Core\Reflection\Microfacet Distribution</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\core\reflection\microfacetdistribution\wardisotropic.h">
+      <Filter>Header Files\Core\Reflection\Microfacet Distribution</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\accelerators\bruteforce.h">
+      <Filter>Header Files\Accelerators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\accelerators\bvhaccel.h">
+      <Filter>Header Files\Accelerators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\accelerators\qbvhaccel.h">
+      <Filter>Header Files\Accelerators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\accelerators\tabreckdtreeaccel.h">
+      <Filter>Header Files\Accelerators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\accelerators\unsafekdtreeaccel.h">
+      <Filter>Header Files\Accelerators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\cameras\environment.h">
+      <Filter>Header Files\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\cameras\orthographic.h">
+      <Filter>Header Files\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\cameras\perspective.h">
+      <Filter>Header Files\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\cameras\realistic.h">
+      <Filter>Header Files\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\cpp_api\export_defs.h">
+      <Filter>Header Files\C++ API</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\cpp_api\lux_api.h">
+      <Filter>Header Files\C++ API</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\cpp_api\lux_instance.h">
+      <Filter>Header Files\C++ API</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\cpp_api\lux_paramset.h">
+      <Filter>Header Files\C++ API</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\film\fleximage.h">
+      <Filter>Header Files\Film</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\film\data\cameraresponsefunctions.h">
+      <Filter>Header Files\Film\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\filters\box.h">
+      <Filter>Header Files\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\filters\gaussian.h">
+      <Filter>Header Files\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\filters\mitchell.h">
+      <Filter>Header Files\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\filters\sinc.h">
+      <Filter>Header Files\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\filters\triangle.h">
+      <Filter>Header Files\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\filters\catmullrom.h">
+      <Filter>Header Files\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\filters\blackmanharris.h">
+      <Filter>Header Files\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\integrators\bidirectional.h">
+      <Filter>Header Files\Integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\integrators\directlighting.h">
+      <Filter>Header Files\Integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\integrators\distributedpath.h">
+      <Filter>Header Files\Integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\integrators\emission.h">
+      <Filter>Header Files\Integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\integrators\exphotonmap.h">
+      <Filter>Header Files\Integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\integrators\igi.h">
+      <Filter>Header Files\Integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\integrators\multi.h">
+      <Filter>Header Files\Integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\integrators\path.h">
+      <Filter>Header Files\Integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\integrators\single.h">
+      <Filter>Header Files\Integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\integrators\sppm.h">
+      <Filter>Header Files\Integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\lights\distant.h">
+      <Filter>Header Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\lights\infinite.h">
+      <Filter>Header Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\lights\infinitesample.h">
+      <Filter>Header Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\lights\pointlight.h">
+      <Filter>Header Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\lights\projection.h">
+      <Filter>Header Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\lights\sky.h">
+      <Filter>Header Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\lights\sky2.h">
+      <Filter>Header Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\lights\spot.h">
+      <Filter>Header Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\lights\sun.h">
+      <Filter>Header Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\lights\data\ArHosekSkyModelData.h">
+      <Filter>Header Files\Lights\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\lights\data\lamp_spect.h">
+      <Filter>Header Files\Lights\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\lights\data\skychroma_spect.h">
+      <Filter>Header Files\Lights\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\lights\data\sun_spect.h">
+      <Filter>Header Files\Lights\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\lights\sphericalfunction\photometricdata_ies.h">
+      <Filter>Header Files\Lights\Spherical Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\lights\sphericalfunction\sphericalfunction.h">
+      <Filter>Header Files\Lights\Spherical Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\lights\sphericalfunction\sphericalfunction_ies.h">
+      <Filter>Header Files\Lights\Spherical Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\materials\carpaint.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\materials\cloth.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\materials\glass.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\materials\glass2.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\materials\glossy.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\materials\glossy2.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\materials\glossytranslucent.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\materials\layeredmaterial.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\materials\matte.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\materials\mattetranslucent.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\materials\metal.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\materials\metal2.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\materials\mirror.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\materials\mixmaterial.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\materials\null.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\materials\roughglass.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\materials\scattermaterial.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\materials\shinymetal.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\materials\velvet.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\pixelsamplers\hilbertpx.h">
+      <Filter>Header Files\Pixel Samplers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\pixelsamplers\linear.h">
+      <Filter>Header Files\Pixel Samplers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\pixelsamplers\lowdiscrepancypx.h">
+      <Filter>Header Files\Pixel Samplers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\pixelsamplers\tilepx.h">
+      <Filter>Header Files\Pixel Samplers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\pixelsamplers\vegas.h">
+      <Filter>Header Files\Pixel Samplers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\renderers\hybridrenderer.h">
+      <Filter>Header Files\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\renderers\hybridsamplerrenderer.h">
+      <Filter>Header Files\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\renderers\samplerrenderer.h">
+      <Filter>Header Files\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\renderers\luxcorerenderer.h">
+      <Filter>Header Files\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\renderers\sppmrenderer.h">
+      <Filter>Header Files\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\renderers\sppm\hitpoints.h">
+      <Filter>Header Files\Renderers\SPPM</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\renderers\sppm\lookupaccel.h">
+      <Filter>Header Files\Renderers\SPPM</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\renderers\sppm\photonsampler.h">
+      <Filter>Header Files\Renderers\SPPM</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\renderers\statistics\samplerstatistics.h">
+      <Filter>Header Files\Renderers\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\renderers\statistics\hybridsamplerstatistics.h">
+      <Filter>Header Files\Renderers\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\renderers\statistics\luxcorestatistics.h">
+      <Filter>Header Files\Renderers\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\renderers\statistics\sppmstatistics.h">
+      <Filter>Header Files\Renderers\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\shapes\cone.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\shapes\cylinder.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\shapes\disk.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\shapes\heightfield.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\shapes\hyperboloid.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\shapes\lenscomponent.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\shapes\loopsubdiv.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\shapes\mesh.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\shapes\mikktspace\mikktspace.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\shapes\mikktspace\weldmesh.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\shapes\nurbs.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\shapes\paraboloid.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\shapes\plymesh.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\shapes\plymesh\rply.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\shapes\sphere.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\shapes\stlmesh.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\shapes\torus.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\band.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\bilerp.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\brick.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\checkerboard.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\cloud.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\colordepth.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\densitygrid.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\dots.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\exponential.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\fbm.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\harlequin.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\imagemap.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\marble.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\mix.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\multimix.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\scale.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\uv.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\uvmask.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\windy.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\wrinkled.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\blender_base.h">
+      <Filter>Header Files\Textures\Blender</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\blender_blend.h">
+      <Filter>Header Files\Textures\Blender</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\blender_clouds.h">
+      <Filter>Header Files\Textures\Blender</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\blender_distortednoise.h">
+      <Filter>Header Files\Textures\Blender</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\blender_magic.h">
+      <Filter>Header Files\Textures\Blender</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\blender_marble.h">
+      <Filter>Header Files\Textures\Blender</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\blender_musgrave.h">
+      <Filter>Header Files\Textures\Blender</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\blender_noise.h">
+      <Filter>Header Files\Textures\Blender</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\blender_stucci.h">
+      <Filter>Header Files\Textures\Blender</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\blender_texlib.h">
+      <Filter>Header Files\Textures\Blender</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\blender_voronoi.h">
+      <Filter>Header Files\Textures\Blender</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\blender_wood.h">
+      <Filter>Header Files\Textures\Blender</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\blackbody.h">
+      <Filter>Header Files\Textures\Uniform</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\constant.h">
+      <Filter>Header Files\Textures\Uniform</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\equalenergy.h">
+      <Filter>Header Files\Textures\Uniform</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\frequencytexture.h">
+      <Filter>Header Files\Textures\Uniform</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\gaussiantexture.h">
+      <Filter>Header Files\Textures\Uniform</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\hitpointcolor.h">
+      <Filter>Header Files\Textures\Uniform</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\irregulardata.h">
+      <Filter>Header Files\Textures\Uniform</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\lampspectrum.h">
+      <Filter>Header Files\Textures\Uniform</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\regulardata.h">
+      <Filter>Header Files\Textures\Uniform</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\tabulateddata.h">
+      <Filter>Header Files\Textures\Uniform</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\cauchytexture.h">
+      <Filter>Header Files\Textures\Fresnel</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\fresnelcolor.h">
+      <Filter>Header Files\Textures\Fresnel</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\sellmeiertexture.h">
+      <Filter>Header Files\Textures\Fresnel</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\textures\tabulatedfresnel.h">
+      <Filter>Header Files\Textures\Fresnel</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\tonemaps\contrast.h">
+      <Filter>Header Files\Tonemaps</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\tonemaps\falsecolors.h">
+      <Filter>Header Files\Tonemaps</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\tonemaps\lineartonemap.h">
+      <Filter>Header Files\Tonemaps</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\tonemaps\maxwhite.h">
+      <Filter>Header Files\Tonemaps</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\tonemaps\nonlinear.h">
+      <Filter>Header Files\Tonemaps</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\tonemaps\reinhard.h">
+      <Filter>Header Files\Tonemaps</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\volumes\clearvolume.h">
+      <Filter>Header Files\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\volumes\cloudvolume.h">
+      <Filter>Header Files\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\volumes\exponentialvolume.h">
+      <Filter>Header Files\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\volumes\heterogeneous.h">
+      <Filter>Header Files\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\volumes\homogeneous.h">
+      <Filter>Header Files\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\luxrender\lux\volumes\volumegrid.h">
+      <Filter>Header Files\Volumes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\98153326ade631966d66c56a43d24e98\luxparse.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\98153326ade631966d66c56a43d24e98\luxlex.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\luxrender\lux\core\luxparse.y" />
+    <None Include="D:\luxrender\lux\core\luxlex.l" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files\Textures\Blender">
+      <UniqueIdentifier>{E70AD657-C820-4524-89D8-785849390EC8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Textures\Uniform">
+      <UniqueIdentifier>{F6D60DF3-5DE3-40F5-9199-342D3E4A724A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Textures\Fresnel">
+      <UniqueIdentifier>{4942131C-9849-4A7C-8862-DF5737BC04D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Film\Data">
+      <UniqueIdentifier>{D464287B-4CE3-493D-9913-15755FE754A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderers\Statistics">
+      <UniqueIdentifier>{EA373DA4-945F-4A5B-83AD-94C52AA3AD40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lights\Data">
+      <UniqueIdentifier>{210CDC0C-F015-4C6B-B593-874CE528FB17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lights\Spherical Functions">
+      <UniqueIdentifier>{D92FB9B6-A954-473D-9A03-50D8D0E56522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderers\Statistics">
+      <UniqueIdentifier>{000F0010-B27C-420A-898F-A313625439AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderers\SPPM">
+      <UniqueIdentifier>{4265A58A-891B-41E3-8B4A-DB96A4C5064A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{139AB3E9-94D9-430E-BF80-995733DA1835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{72DC9717-AC45-4331-B36B-691620A2A9D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{49131876-AA2F-4913-A1C3-A2029BE871DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Textures\Blender">
+      <UniqueIdentifier>{CDA398E7-B279-492F-8385-CE2AA3E753F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Textures\Uniform">
+      <UniqueIdentifier>{959719F3-BA8F-4F6D-BB66-2CF6D052AC17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Textures\Fresnel">
+      <UniqueIdentifier>{D8545AAB-C479-4C5B-8E8F-3D3192EAC2E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Generated">
+      <UniqueIdentifier>{FAF9BAA2-324F-4432-A777-E34FF59C3412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Geometry">
+      <UniqueIdentifier>{8F289BA1-F297-4FC7-B298-5910262BF84A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Queryable">
+      <UniqueIdentifier>{BEAFE443-976F-40B9-94FD-33875A859F9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Reflection">
+      <UniqueIdentifier>{607606DC-E79C-49F8-97ED-3ED367BB2A7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{45D39B44-7B17-41FF-BE87-379BC626DD48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Accelerators">
+      <UniqueIdentifier>{279C89EE-383E-46B4-AE4D-9C25BDCA302A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cameras">
+      <UniqueIdentifier>{9B8FEB25-AFB0-45EB-A984-46F3F9D970AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Films">
+      <UniqueIdentifier>{922CC7EE-89C8-4A73-9D83-A2F4C92F8053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Filters">
+      <UniqueIdentifier>{3B002BF1-4A46-4A2A-9007-0B5A81450E27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Integrators">
+      <UniqueIdentifier>{59C7475D-B627-4CA5-8EFC-360E238AF22C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lights">
+      <UniqueIdentifier>{AAB9D893-B09D-4222-814A-250B9AEF733F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Materials">
+      <UniqueIdentifier>{9190D14E-C47E-4B72-AB9B-F015C378CFB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pixel Samplers">
+      <UniqueIdentifier>{7ECDB054-6FCF-4E12-A350-40681721B027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Samplers">
+      <UniqueIdentifier>{F2A7BD9D-3B0F-4A3D-AB25-2BB861849B0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderers">
+      <UniqueIdentifier>{8235B388-8154-4E66-8FE9-76E4098213CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shapes">
+      <UniqueIdentifier>{993E8346-F454-4BBA-BD9E-DF6A68620D17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Textures">
+      <UniqueIdentifier>{29B2B022-0BBA-4972-B6A2-7C6E12D5BAE4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tonemaps">
+      <UniqueIdentifier>{94AE03E9-D734-4473-8E8E-B0C6C607B813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Volumes">
+      <UniqueIdentifier>{436758F8-FA6E-4256-B228-A7F54DD672D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Reflection\BSDF">
+      <UniqueIdentifier>{37E7CFE6-EDA0-440B-BFFD-28AB91C705B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Reflection\BxDF">
+      <UniqueIdentifier>{EFCA2B33-E42C-4F20-BC83-C459F4DF3ED8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Reflection\Fresnel">
+      <UniqueIdentifier>{85E54A75-3C2B-4327-9ACF-2B893C16785C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Reflection\Microfacet Distribution">
+      <UniqueIdentifier>{18A6ED8D-73FA-49A5-A3CE-9960B5F73DF6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{3C8FE292-74E1-4232-B47C-CB0BD7DFA69A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Accelerators">
+      <UniqueIdentifier>{3DDD6888-EAA3-48EA-B926-44EF738D50EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cameras">
+      <UniqueIdentifier>{0EE207FB-56AA-4348-91CC-9F45EBF3F8F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\C++ API">
+      <UniqueIdentifier>{8F7F373E-99A8-4DBE-80E3-A43A8A63E862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Film">
+      <UniqueIdentifier>{752C8507-2EEA-4980-98EA-B27A612CDE27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Filters">
+      <UniqueIdentifier>{3EF924E0-89D6-451E-9ABA-5F87831D26A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Integrators">
+      <UniqueIdentifier>{D41B75E3-E113-48DB-B251-8C0BA1D8EE7C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lights">
+      <UniqueIdentifier>{99393B4C-758A-4C5C-9ED8-ACFEF1F7E5C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Materials">
+      <UniqueIdentifier>{12689994-8994-4887-8117-F745BCA136FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pixel Samplers">
+      <UniqueIdentifier>{E791CABA-054C-43FB-998F-A4DA73179BD0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderers">
+      <UniqueIdentifier>{0C6226E0-A162-41E5-A272-689995B2E2B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shapes">
+      <UniqueIdentifier>{790BEE8B-8A02-42C2-86A2-D1BC4A4CC058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Textures">
+      <UniqueIdentifier>{86E6CC4C-D79A-4DC4-B35D-926C0EE842D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tonemaps">
+      <UniqueIdentifier>{FCF4AFD9-C359-43AC-9895-B3FBD86B3191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Volumes">
+      <UniqueIdentifier>{333864B1-E94F-4DF6-9B20-3411436AAC21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\External">
+      <UniqueIdentifier>{868A35CD-3059-431A-BEB3-96554ACF955F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Geometry">
+      <UniqueIdentifier>{4C7DDCF8-A9FB-4546-A68B-44A67E08D94C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Queryable">
+      <UniqueIdentifier>{9D227EAC-C56F-43A2-947C-0F971D981B0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Reflection">
+      <UniqueIdentifier>{57F558D0-DEDD-42F5-A3BC-C80CBDB48BB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Reflection\BSDF">
+      <UniqueIdentifier>{0BD1D748-648B-4991-87C9-39A9BFC3D495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Reflection\BxDF">
+      <UniqueIdentifier>{07BED1BA-0201-4EC2-BBA9-BA9A59D85471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Reflection\Fresnel">
+      <UniqueIdentifier>{EA67CE19-826D-4484-A34F-782147C4BCE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Reflection\Microfacet Distribution">
+      <UniqueIdentifier>{01FBEC04-1875-47A5-A8A9-3E9C04F01294}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
